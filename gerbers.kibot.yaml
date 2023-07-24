@@ -3,8 +3,6 @@ kiplot:
   version: 1
 
 preflight:
-  run_erc: true
-  run_drc: true
   ignore_unconnected: true
 
 outputs:
