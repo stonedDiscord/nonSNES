@@ -28,7 +28,7 @@ jobs:
     needs: gerber
 
     steps:
-    - run: sudo apt install imagemagick gerbv 
+    - run: sudo apt install gerbv 
         
     - uses: actions/checkout@v3
       with:
@@ -43,16 +43,16 @@ jobs:
       run: | 
         ./gerbrend -o *Edge_Cuts.gbr -f *F_Cu.gbr -b *B_Cu.gbr -m *F_Mask.gbr -n *B_Mask.gbr -s *F_Silkscreen.gbr -t *B_Silkscreen.gbr
 
-    - name: Compare ours against a photo
-      run: | 
-        magick compare -metric PSNR front.png ./photo/front.png front_difference.png
-        magick compare -metric PSNR back.png ./photo/back.png back_difference.png
+#    - name: Compare ours against a photo
+#      run: | 
+#        compare -metric PSNR front-render.png ./photo/front.png front_difference.png
+#        compare -metric PSNR back-render.png ./photo/back.png back_difference.png
   
     - name: Upload Report
       uses: actions/upload-artifact@v3
       with: 
         name: Similiarity
         path: |
-         ./front.png
-         ./back.png
-         ./percentage.txt
+         ./front-render.png
+         ./back-render.png
+#         ./percentage.txt
