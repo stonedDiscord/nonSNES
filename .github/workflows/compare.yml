@@ -7,7 +7,7 @@ jobs:
     name: Plot gerbers
     runs-on: ubuntu-latest
     container:
-      image: setsoft/kicad_auto:ki6
+      image: setsoft/kicad_auto:ki7
 
     steps:
     - uses: actions/checkout@v3
