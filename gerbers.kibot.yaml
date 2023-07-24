@@ -25,7 +25,7 @@ outputs:
       - B.Mask
       - Edge.Cuts
 
-    - name: 'drills'
-      comment: "Drill files for the board house"
-      type: gerb_drill
-      dir: gerbers
+  - name: 'drills'
+    comment: "Drill files for the board house"
+    type: gerb_drill
+    dir: gerbers
