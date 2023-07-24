@@ -1,0 +1,54 @@
+name: Compare
+
+on: [push, pull_request]
+
+jobs:
+  gerber:
+    name: Plot gerbers
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: nerdyscout/kicad-exports@v2.3.1
+      with:
+        config: gerbers.kibot.yaml
+
+    - name: Upload Gerber files
+      uses: actions/upload-artifact@v3
+      with: 
+        name: Gerbers
+        path: ./gerbers/
+
+  compare:
+    name: Compare to wanted output
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/download-artifact@v3
+    with:
+      name: Gerbers
+      path: ./gerbers/
+
+    - run: sudo apt install imagemagick gerbv 
+        
+    - uses: actions/checkout@v3
+      repository: 'brandtks/GerberRender'
+
+    - name: Render the image
+      run: | 
+        ./gerbrend -l ./gerbers/
+
+    - name: Compare ours against a photo
+      run: | 
+        magick compare -metric PSNR front.png ./photo/front.png front_difference.png
+        magick compare -metric PSNR back.png ./photo/back.png back_difference.png
+  
+    - name: Upload Report
+      uses: actions/upload-artifact@v3
+      with: 
+        name: Similiarity
+        path: |
+         ./front.png
+         ./back.png
+         ./percentage.txt

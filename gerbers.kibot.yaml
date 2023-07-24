@@ -1,0 +1,30 @@
+# Example KiPlot config file
+kiplot:
+  version: 1
+
+preflight:
+  run_erc: true
+  update_xml: false
+  run_drc: true
+  check_zone_fills: false
+  ignore_unconnected: true
+
+outputs:
+  - name: 'print_diff'
+    dir: .
+    type: diff 
+
+  - name: 'gerbers'
+    comment: "Gerbers for the board house"
+    type: gerber
+    dir: Gerbers
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.Paste
+      - B.Paste
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
