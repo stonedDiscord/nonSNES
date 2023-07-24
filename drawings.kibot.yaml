@@ -1,0 +1,28 @@
+# Example KiPlot config file
+kiplot:
+  version: 1
+
+preflight:
+  ignore_unconnected: true
+
+outputs:
+  - name: 'print_diff'
+    dir: .
+    type: diff 
+
+  - name: 'drawt'
+    comment: "Drawings to compare the original top side against"
+    type: pcbdraw
+    dir: drawings
+    options:
+      format: png
+      output: front-drawn
+
+  - name: 'drawb'
+    comment: "Drawings to compare the original back side against"
+    type: pcbdraw
+    dir: drawings
+    options:
+      bottom: true
+      format: png
+      output: front-drawn
