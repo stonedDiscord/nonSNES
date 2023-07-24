@@ -33,7 +33,8 @@ jobs:
     - run: sudo apt install imagemagick gerbv 
         
     - uses: actions/checkout@v3
-      repository: 'brandtks/GerberRender'
+      with:
+        repository: 'brandtks/GerberRender'
 
     - name: Render the image
       run: | 
