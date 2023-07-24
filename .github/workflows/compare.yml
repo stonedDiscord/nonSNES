@@ -28,20 +28,20 @@ jobs:
     needs: gerber
 
     steps:
-    - uses: actions/download-artifact@v3
-      with:
-        name: Gerbers
-        path: ./gerbers/
-
     - run: sudo apt install imagemagick gerbv 
         
     - uses: actions/checkout@v3
       with:
         repository: 'brandtks/GerberRender'
 
+    - uses: actions/download-artifact@v3
+      with:
+        name: Gerbers
+        path: .
+
     - name: Render the image
       run: | 
-        ./gerbrend -l ./gerbers/
+        ./gerbrend
 
     - name: Compare ours against a photo
       run: | 
