@@ -6,13 +6,15 @@ jobs:
   gerber:
     name: Plot gerbers
     runs-on: ubuntu-latest
+    container:
+      image: setsoft/kicad_auto:ki6
 
     steps:
     - uses: actions/checkout@v3
 
-    - uses: nerdyscout/kicad-exports@v2.3.1
-      with:
-        config: gerbers.kibot.yaml
+    - name: Run KiBot
+      run: | 
+        kibot -c gerbers.kibot.yml
 
     - name: Upload Gerber files
       uses: actions/upload-artifact@v3
@@ -21,8 +23,9 @@ jobs:
         path: ./gerbers/
 
   compare:
-    name: Compare to wanted output
+    name: Compare to desired output
     runs-on: ubuntu-latest
+    needs: gerber
 
     steps:
     - uses: actions/download-artifact@v3
