@@ -41,7 +41,7 @@ jobs:
 
     - name: Render the image
       run: | 
-        ./gerbrend
+        ./gerbrend -o *Edge_Cuts.gbr -f *F_Cu.gbr -b *B_Cu.gbr -m *F_Mask.gbr -n *B_Mask.gbr -s *F_Silkscreen.gbr -t *B_Silkscreen.gbr
 
     - name: Compare ours against a photo
       run: | 
