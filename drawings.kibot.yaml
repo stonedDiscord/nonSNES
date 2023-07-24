@@ -16,7 +16,7 @@ outputs:
     dir: drawings
     options:
       format: png
-      output: front-drawn
+      output: front-drawn.png
 
   - name: 'drawb'
     comment: "Drawings to compare the original back side against"
@@ -25,4 +25,4 @@ outputs:
     options:
       bottom: true
       format: png
-      output: front-drawn
+      output: back-drawn.png
