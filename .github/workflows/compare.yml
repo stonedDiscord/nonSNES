@@ -26,9 +26,9 @@ jobs:
 
     steps:
     - uses: actions/download-artifact@v3
-    with:
-      name: Gerbers
-      path: ./gerbers/
+      with:
+        name: Gerbers
+        path: ./gerbers/
 
     - run: sudo apt install imagemagick gerbv 
         
