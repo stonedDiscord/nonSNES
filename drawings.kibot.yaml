@@ -17,6 +17,10 @@ outputs:
     options:
       format: png
       output: front-drawn.png
+      style:
+        board: "#018e85"
+        copper: "#4e9a74"
+        pads: "#8d99af"
 
   - name: 'drawb'
     comment: "Drawings to compare the original back side against"
@@ -26,3 +30,8 @@ outputs:
       bottom: true
       format: png
       output: back-drawn.png
+      show_components: all
+      style:
+        board: "#0f2b2c"
+        copper: "#0f351e"
+        pads: "#bdc1c7"
