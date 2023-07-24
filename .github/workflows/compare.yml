@@ -14,7 +14,7 @@ jobs:
 
     - name: Run KiBot
       run: | 
-        kibot -c gerbers.kibot.yml
+        kibot -c ./gerbers.kibot.yaml
 
     - name: Upload Gerber files
       uses: actions/upload-artifact@v3

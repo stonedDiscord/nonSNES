@@ -4,9 +4,7 @@ kiplot:
 
 preflight:
   run_erc: true
-  update_xml: false
   run_drc: true
-  check_zone_fills: false
   ignore_unconnected: true
 
 outputs:
@@ -17,7 +15,7 @@ outputs:
   - name: 'gerbers'
     comment: "Gerbers for the board house"
     type: gerber
-    dir: Gerbers
+    dir: gerbers
     layers:
       - F.Cu
       - B.Cu
