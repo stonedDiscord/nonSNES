@@ -56,7 +56,8 @@ jobs:
 
     - name: Compare ours against a photo
       run: | 
-        compare -metric PSNR ./front-drawn.png ./photo/front.jpg front_difference.png
+        compare -metric PSNR ./front-drawn.png ./photo/front.jpg front_difference.png >> difference.txt
+        compare -metric PSNR ./back-drawn.png ./photo/back.jpg back_difference.png >> difference.txt
   
     - name: Upload Report
       uses: actions/upload-artifact@v3
@@ -64,3 +65,5 @@ jobs:
         name: Similiarity
         path: |
          ./front_difference.png
+         ./back_difference.png
+         ./difference.txt
