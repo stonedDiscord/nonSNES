@@ -15,8 +15,8 @@ outputs:
     type: pcbdraw
     dir: drawings
     options:
-      format: png
-      output: front-drawn.png
+      format: jpg
+      output: front-drawn.jpg
       style:
         board: "#018e85"
         copper: "#4e9a74"
@@ -28,8 +28,8 @@ outputs:
     dir: drawings
     options:
       bottom: true
-      format: png
-      output: back-drawn.png
+      format: jpg
+      output: back-drawn.jpg
       show_components: all
       style:
         board: "#0f2b2c"
