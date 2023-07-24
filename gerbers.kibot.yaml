@@ -27,5 +27,5 @@ outputs:
 
   - name: 'drills'
     comment: "Drill files for the board house"
-    type: gerb_drill
+    type: excellon
     dir: gerbers
