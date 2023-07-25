@@ -9635,6 +9635,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 56.515 394.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9f3ff651-c6da-496c-a253-ddd3ee8f0c9c)
+    (property "Reference" "#PWR016" (at 56.515 401.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 56.515 400.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 56.515 394.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 56.515 394.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 72ee2be0-4c04-429b-aa83-4f644a8990d7))
+    (instances
+      (project "nonSNES"
+        (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 131.445 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a33a012e-a662-433c-a567-2c826249897e)
@@ -9681,6 +9706,31 @@
       (project "nonSNES"
         (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
           (reference "R85") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 73.025 374.65 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a75eb3ce-e30c-4c36-8794-329ae2a07cd6)
+    (property "Reference" "#PWR017" (at 73.025 378.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 73.025 370.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 73.025 374.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 73.025 374.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 737605a9-c642-4bad-9d9c-00f1a076e515))
+    (instances
+      (project "nonSNES"
+        (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -9769,10 +9819,10 @@
   (symbol (lib_id "SNES_Library:CIC") (at 65.405 383.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd9b5e6d-bdfe-468c-84c1-8b6e2a397fde)
-    (property "Reference" "U7" (at 64.77 370.84 0)
+    (property "Reference" "U8" (at 64.77 370.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 60.325 369.57 0)
+    (property "Value" "CIC" (at 60.325 369.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:SSOP-18_4.4x6.5mm_P0.65mm" (at 60.325 369.57 0)
@@ -9802,7 +9852,7 @@
     (instances
       (project "nonSNES"
         (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
-          (reference "U7") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
