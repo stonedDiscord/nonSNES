@@ -56,14 +56,15 @@ jobs:
 
     - name: Compare ours against a photo
       run: | 
-        composite ./front-drawn.jpg ./photo/front.jpg -compose difference  ./front_difference.jpg >> difference.txt || true
-        composite ./back-drawn.jpg ./photo/back.jpg -compose difference  ./back_difference.jpg >> difference.txt || true
+        composite ./front-drawn.jpg ./photo/front.jpg -compose difference  ./front-difference.jpg || true
+        composite ./back-drawn.jpg ./photo/back.jpg -compose difference  ./back-difference.jpg || true
+        composite ./back-sand-drawn.jpg ./photo/back-sand.jpg -compose difference  ./back-sand-difference.jpg || true
   
     - name: Upload Report
       uses: actions/upload-artifact@v3
       with: 
         name: Similiarity
         path: |
-         ./front_difference.jpg
-         ./back_difference.jpg
-         ./difference.txt
+         ./front-difference.jpg
+         ./back-difference.jpg
+         ./back-sand-difference.jpg

@@ -35,3 +35,18 @@ outputs:
         board: "#0f2b2c"
         copper: "#0f351e"
         pads: "#bdc1c7"
+      placeholder: true
+
+  - name: 'drawbs'
+    comment: "Drawings to compare the original sanded back side against"
+    type: pcbdraw
+    dir: drawings
+    options:
+      bottom: true
+      format: jpg
+      output: back-sand-drawn.jpg
+      show_components: none
+      style:
+        board: "#2d635d"
+        copper: "#fad2c6"
+        pads: "#c8ced1"
