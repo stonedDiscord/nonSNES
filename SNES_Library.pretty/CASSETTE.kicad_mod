@@ -51,6 +51,8 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2998ef6f-0d11-41fc-a409-c6cdd71cb29f)
   )
+  (fp_rect (start -43.5 -5) (end 43.5 5.5)
+    (stroke (width 0.1) (type dash)) (fill none) (layer "B.SilkS") (tstamp 9e8ba43c-04d8-4f67-92ac-4b5632e9c429))
   (fp_line (start -49 -5) (end -49 -1.5)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 16aff899-7cb3-44a4-8633-8e9055240af9))
   (fp_line (start -49 -2) (end -48.5 -2)

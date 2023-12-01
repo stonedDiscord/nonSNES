@@ -13,6 +13,23 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d69cd567-c257-4d93-8a06-cc8d048a6520)
   )
+  (fp_poly
+    (pts
+      (xy -19 4)
+      (xy -19 15)
+      (xy -17 15)
+      (xy -17 19)
+      (xy 17 19)
+      (xy 17 15)
+      (xy 19 15)
+      (xy 19 4)
+      (xy 17 4)
+      (xy 17 0)
+      (xy -17 0)
+      (xy -17 4)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill none) (layer "B.SilkS") (tstamp 33c06d0e-14cd-4c52-8200-d2d579ffb1f5))
   (fp_rect (start -21 3) (end 21 16)
     (stroke (width 0.1) (type dash)) (fill none) (layer "F.SilkS") (tstamp 36dbdc33-f999-47bf-aa87-e0edaf5cf16f))
   (pad "1" thru_hole circle (at 13 5 90) (size 1.7 1.7) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 39d9edfc-ff42-455b-8cad-39572d963548))
