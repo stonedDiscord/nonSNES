@@ -1519,11 +1519,11 @@
         )
       )
     )
-    (symbol "Device:Q_PNP_EBC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:Q_PNP_BEC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Q_PNP_EBC" (at 5.08 -1.27 0)
+      (property "Value" "Q_PNP_BEC" (at 5.08 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (at 5.08 2.54 0)
@@ -1535,10 +1535,10 @@
       (property "ki_keywords" "transistor PNP" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "PNP transistor, emitter/base/collector" (at 0 0 0)
+      (property "ki_description" "PNP transistor, base/emitter/collector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Q_PNP_EBC_0_1"
+      (symbol "Q_PNP_BEC_0_1"
         (polyline
           (pts
             (xy 0.635 0.635)
@@ -1581,13 +1581,13 @@
           (fill (type none))
         )
       )
-      (symbol "Q_PNP_EBC_1_1"
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "E" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
+      (symbol "Q_PNP_BEC_1_1"
         (pin input line (at -5.08 0 0) (length 5.715)
           (name "B" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "E" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
@@ -22985,7 +22985,7 @@
     )
   )
 
-  (symbol (lib_id "Device:Q_PNP_EBC") (at 407.035 20.32 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:Q_PNP_BEC") (at 407.035 20.32 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c19f18f-1c5b-4d5b-b20f-b7276fe1ffe5)
     (property "Reference" "Q18" (at 412.75 19.05 0)
