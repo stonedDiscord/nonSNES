@@ -18337,7 +18337,7 @@
   (symbol (lib_id "Device:C") (at 170.815 402.59 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 1dc5c32a-2d17-444b-9967-e3d36401ad41)
-    (property "Reference" "C96" (at 163.83 402.59 90)
+    (property "Reference" "C69" (at 163.83 402.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47pF" (at 166.37 402.59 90)
@@ -18354,7 +18354,7 @@
     (instances
       (project "nonSNES"
         (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
-          (reference "C96") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -21558,7 +21558,7 @@
   (symbol (lib_id "Device:C") (at 351.155 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b5b008e-9e4e-4046-9d10-a26893a6e34e)
-    (property "Reference" "C69" (at 354.33 34.29 0)
+    (property "Reference" "C96" (at 354.33 34.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1µF" (at 354.33 36.83 0)
@@ -21575,7 +21575,7 @@
     (instances
       (project "nonSNES"
         (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
-          (reference "C69") (unit 1)
+          (reference "C96") (unit 1)
         )
       )
     )
@@ -27485,7 +27485,7 @@
   (symbol (lib_id "Device:C") (at 131.445 387.985 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid cb5fffde-7862-40f8-a62f-50fab19171ff)
-    (property "Reference" "C2" (at 131.445 394.97 90)
+    (property "Reference" "C5" (at 131.445 394.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47pF" (at 131.445 392.43 90)
@@ -27502,7 +27502,7 @@
     (instances
       (project "nonSNES"
         (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -27858,7 +27858,7 @@
   (symbol (lib_id "Device:C") (at 131.445 370.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2af1b3e-f6ae-4de5-834f-e15f8eec3f7a)
-    (property "Reference" "C5" (at 131.445 363.22 90)
+    (property "Reference" "C2" (at 131.445 363.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15pF" (at 131.445 365.76 90)
@@ -27875,7 +27875,7 @@
     (instances
       (project "nonSNES"
         (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
