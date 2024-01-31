@@ -16124,10 +16124,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "{slash}IRQ" (shape input) (at 159.385 311.15 0) (fields_autoplaced)
+  (global_label "{slash}IRQ" (shape input) (at 158.75 311.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 684b3b60-50c3-4f5f-bc39-d778c420b8ab)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 166.906 311.15 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 166.271 311.15 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -20855,7 +20855,7 @@
   (symbol (lib_id "Device:C") (at 516.255 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55745f50-34f1-4d53-ba4b-072324d32e93)
-    (property "Reference" "C20" (at 518.795 147.955 0)
+    (property "Reference" "C12" (at 518.795 147.955 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pF" (at 518.795 150.495 0)
@@ -20872,7 +20872,7 @@
     (instances
       (project "nonSNES"
         (path "/d1480d56-b791-43e1-bd4c-b0c74bb0533d"
-          (reference "C20") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
