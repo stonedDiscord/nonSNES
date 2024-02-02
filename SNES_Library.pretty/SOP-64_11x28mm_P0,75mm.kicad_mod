@@ -87,4 +87,9 @@
   (pad "62" smd rect (at -10.4 -6.4 90) (size 1.27 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 376dfa07-cbb9-43ee-819a-b3c56705db68))
   (pad "63" smd rect (at -11.2 -6.4 90) (size 1.27 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5e264ea2-dd15-4023-9ab1-31e144831981))
   (pad "64" smd rect (at -12.4 -6.4 90) (size 1.27 1.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4b873811-6a7c-407d-8019-6d3f92d29ed5))
+  (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-II-54_22.2x10.16mm_P0.8mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

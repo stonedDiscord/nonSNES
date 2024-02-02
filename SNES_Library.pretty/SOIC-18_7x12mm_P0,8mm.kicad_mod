@@ -44,4 +44,9 @@
   (pad "16" smd rect (at 4.4 -1.6 90) (size 0.4 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1eabfee2-6ddc-487d-8292-cd767c142c36))
   (pad "17" smd rect (at 4.4 -2.4 90) (size 0.4 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b3eb929e-1e88-48ab-8e09-a516e94446e7))
   (pad "18" smd rect (at 4.4 -3.6 90) (size 1 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a15cf9af-9249-4142-a3bf-78532fffc977))
+  (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

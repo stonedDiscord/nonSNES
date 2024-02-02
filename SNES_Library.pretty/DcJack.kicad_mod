@@ -21,4 +21,9 @@
     (stroke (width 0.12) (type solid)) (fill none) (layer "User.2") (tstamp d646648d-1a16-4783-8cd6-ea2f15d3d3a5))
   (pad "1" thru_hole oval (at -3.81 0) (size 4.5 6.35) (drill oval 1.524 4.572) (layers "*.Cu" "*.Mask") (tstamp 8a9516c2-2aec-44ca-b8f5-06bed6877fc1))
   (pad "2" thru_hole oval (at 2.5 0) (size 4.5 6.35) (drill oval 1.524 4.572) (layers "*.Cu" "*.Mask") (tstamp 911b4886-bdb0-4db0-90a8-810b73e400fe))
+  (model "${KICAD7_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal.wrl"
+    (offset (xyz 2.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
