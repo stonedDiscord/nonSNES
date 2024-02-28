@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "SNES_Library")(type "KiCad")(uri "${KIPRJMOD}/SNES_Library.pretty")(options "")(descr ""))
+  (lib (name "Trimmer_THT")(type "KiCad")(uri "${KIPRJMOD}/Trimmer_THT.pretty")(options "")(descr ""))
 )
