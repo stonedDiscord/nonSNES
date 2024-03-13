@@ -17,7 +17,7 @@ The design tries to be a 1:1 recreation of the original SNSP-CPU-01 Rev5 board.
 - [ ] Replace the audio RAM
 - [ ] Replace the WRAM
 - [ ] Replace the S-CLK clock generator
-- [ ] Include controller port board
+- [X] Include controller port board
 
 ## Tips if you decide to make this/get it made
 I've compared prices using https://pcbshopper.com/ and last time I checked JLCPCB had the best prices and the board in the image was made by them.
