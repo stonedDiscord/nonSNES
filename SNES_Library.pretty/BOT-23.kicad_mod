@@ -1,26 +1,119 @@
-(footprint "BOT-23" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 7.874 180 unlocked) (layer "F.SilkS")
-      (effects (font (size 1.25 1.25) (thickness 0.2)))
-    (tstamp 9a0ea63f-f555-475b-b2df-d6b1dc967a40)
-  )
-  (fp_text value "BOT-23" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 1e3993bf-3697-4055-8aef-86af2a7c285f)
-  )
-  (fp_text user "${REFERENCE}" (at 0 8 180 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7ab7165f-b349-4292-ada1-034e11ef999f)
-  )
-  (fp_rect (start 2.5 4.5) (end -2.5 2)
-    (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp c07b49fc-cd1a-46db-84f2-a2bc161cb678))
-  (pad "1" smd rect (at -1.5 1 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 434f1678-1a4e-49f1-a9b1-f0adeb671da4))
-  (pad "2" smd rect (at 0 6 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e5b291bf-f1fc-4e64-a27e-ffde40a995e8))
-  (pad "3" smd rect (at 1.5 1 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c33976d0-e8fd-4059-8340-f8b428371cdd))
-  (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23W.wrl"
-    (offset (xyz 0 -3.5 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "BOT-23"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 7.874 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9a0ea63f-f555-475b-b2df-d6b1dc967a40")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "BOT-23"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1e3993bf-3697-4055-8aef-86af2a7c285f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33ca1c1b-e828-41c5-a2aa-ad2ed086cb41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0428ef70-fca5-4b03-9f33-20dac8e78ea8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 2.5 4.5)
+		(end -2.5 2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c07b49fc-cd1a-46db-84f2-a2bc161cb678")
+	)
+	(fp_rect
+		(start -2.5 0.25)
+		(end 2.5 6.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a4b34c8e-3386-4a85-ba8d-6066bd88b62d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7ab7165f-b349-4292-ada1-034e11ef999f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 1 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "434f1678-1a4e-49f1-a9b1-f0adeb671da4")
+	)
+	(pad "2" smd rect
+		(at 0 6 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5b291bf-f1fc-4e64-a27e-ffde40a995e8")
+	)
+	(pad "3" smd rect
+		(at 1.5 1 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c33976d0-e8fd-4059-8340-f8b428371cdd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23W.wrl"
+		(offset
+			(xyz 0 -3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )
