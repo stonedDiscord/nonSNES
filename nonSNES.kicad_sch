@@ -3155,6 +3155,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SNES_Library:AVOUT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AVOUT_0_0"
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "Red"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "CSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "Y-SV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -10.16 0)
+					(length 2.54)
+					(name "CV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -12.7 0)
+					(length 2.54)
+					(name "Audio-L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "Green"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "Blue"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "C-SV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -12.7 180)
+					(length 2.54)
+					(name "Audio-R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AVOUT_0_1"
+				(rectangle
+					(start -8.89 1.27)
+					(end 8.89 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SNES_parts:32Kx8_SRAM"
 			(pin_names
 				(offset 1.016)
@@ -3735,289 +4015,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SNES_parts:AV_MULTIOUT"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "P"
-				(at -8.89 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "AV_MULTIOUT"
-				(at -2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AV_MULTIOUT_0_0"
-				(rectangle
-					(start -10.16 8.89)
-					(end 10.16 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AV_MULTIOUT_1_1"
-				(pin input line
-					(at -15.24 6.35 0)
-					(length 5.08)
-					(name "RED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 3.81 0)
-					(length 5.08)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 1.27 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -1.27 0)
-					(length 5.08)
-					(name "Y-SV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -3.81 0)
-					(length 5.08)
-					(name "CV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -6.35 0)
-					(length 5.08)
-					(name "AUDIO-L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 6.35 180)
-					(length 5.08)
-					(name "GREEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 3.81 180)
-					(length 5.08)
-					(name "BLUE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 1.27 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -1.27 180)
-					(length 5.08)
-					(name "C-SV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -3.81 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -6.35 180)
-					(length 5.08)
-					(name "AUDIO-R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -18865,6 +18862,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 71.12) (xy 473.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010bf611-91f8-478f-af5e-5578f7c774f0")
+	)
+	(wire
+		(pts
 			(xy 269.24 543.56) (xy 266.7 543.56)
 		)
 		(stroke
@@ -19335,6 +19342,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 81.28) (xy 500.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08482b32-1682-4e9c-8dd1-38305ef35fc8")
+	)
+	(wire
+		(pts
 			(xy 242.57 233.68) (xy 229.87 233.68)
 		)
 		(stroke
@@ -19385,7 +19402,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 83.82) (xy 422.91 83.82)
+			(xy 422.91 83.82) (xy 430.53 83.82)
 		)
 		(stroke
 			(width 0)
@@ -19702,6 +19719,16 @@
 			(type default)
 		)
 		(uuid "0d7fd5ff-c92a-4811-b97d-17aa623f98ce")
+	)
+	(wire
+		(pts
+			(xy 453.39 78.74) (xy 486.41 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd7d9d2-d9d2-49b1-a409-6e69051a80af")
 	)
 	(wire
 		(pts
@@ -20975,7 +21002,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 78.74) (xy 388.62 78.74)
+			(xy 388.62 78.74) (xy 430.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -21555,16 +21582,6 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 78.74) (xy 486.41 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c9161b5-3984-4da1-8142-7979c8144e25")
-	)
-	(wire
-		(pts
 			(xy 388.62 78.74) (xy 388.62 85.09)
 		)
 		(stroke
@@ -21582,16 +21599,6 @@
 			(type default)
 		)
 		(uuid "2cea29e3-48b9-47b7-8862-492273c02efa")
-	)
-	(wire
-		(pts
-			(xy 457.2 76.2) (xy 466.09 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2c9150-bd13-478b-be35-b31625b747d5")
 	)
 	(wire
 		(pts
@@ -24985,7 +24992,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 71.12) (xy 426.72 71.12)
+			(xy 373.38 71.12) (xy 430.53 71.12)
 		)
 		(stroke
 			(width 0)
@@ -26895,16 +26902,6 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 73.66) (xy 457.2 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8328baae-eeeb-42f3-b2bd-58d72a9cea36")
-	)
-	(wire
-		(pts
 			(xy 165.1 308.61) (xy 186.69 308.61)
 		)
 		(stroke
@@ -27055,23 +27052,13 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 81.28) (xy 396.24 81.28)
+			(xy 396.24 81.28) (xy 430.53 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8557c779-7286-4302-9f5f-a64451a5e030")
-	)
-	(wire
-		(pts
-			(xy 457.2 83.82) (xy 461.01 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85689907-a620-49d8-8961-c371c2b18760")
 	)
 	(wire
 		(pts
@@ -27492,6 +27479,16 @@
 			(type default)
 		)
 		(uuid "8c5d1858-e509-4e05-8621-ab4e6c8667be")
+	)
+	(wire
+		(pts
+			(xy 453.39 83.82) (xy 461.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c66b3b8-5c1c-45e7-bafe-6cefb4ef0930")
 	)
 	(wire
 		(pts
@@ -31375,6 +31372,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 73.66) (xy 480.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c719f956-7211-4191-9cdd-fc2844c1247f")
+	)
+	(wire
+		(pts
 			(xy 194.31 304.8) (xy 207.01 304.8)
 		)
 		(stroke
@@ -31585,7 +31592,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 73.66) (xy 381 73.66)
+			(xy 381 73.66) (xy 430.53 73.66)
 		)
 		(stroke
 			(width 0)
@@ -32302,16 +32309,6 @@
 			(type default)
 		)
 		(uuid "d4e7cd07-c711-45ae-867d-3a44f7836da9")
-	)
-	(wire
-		(pts
-			(xy 473.71 71.12) (xy 457.2 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d543aa7a-42ad-4289-91ab-41af11fac671")
 	)
 	(bus
 		(pts
@@ -33425,16 +33422,6 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 81.28) (xy 500.38 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6f5d2a4-4bc2-421f-894c-38243eb05040")
-	)
-	(wire
-		(pts
 			(xy 485.14 71.12) (xy 473.71 71.12)
 		)
 		(stroke
@@ -33865,6 +33852,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 76.2) (xy 466.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6fce92-79b7-49e1-889b-30f520ba0e1a")
+	)
+	(wire
+		(pts
 			(xy 106.68 483.87) (xy 133.35 483.87)
 		)
 		(stroke
@@ -34195,7 +34192,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 76.2) (xy 414.02 76.2)
+			(xy 414.02 76.2) (xy 430.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -42459,102 +42456,6 @@
 			(project "PAL-snes-1chip-schematic"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SNES_parts:AV_MULTIOUT")
-		(at 441.96 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005de2f1ee")
-		(property "Reference" "P4"
-			(at 441.96 63.8302 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AV_MULTIOUT"
-			(at 441.96 66.5226 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SNES_Library:AVOut"
-			(at 441.96 86.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 441.96 86.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 441.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02f9555c-31c2-433c-ac42-a699a7299e00")
-		)
-		(pin "10"
-			(uuid "259c8a82-cd9a-43f0-aed3-b0a9e8c622d6")
-		)
-		(pin "11"
-			(uuid "d142703e-9e36-4448-b888-1868002c95b4")
-		)
-		(pin "12"
-			(uuid "3e69e02e-bd7a-4221-a673-babd4c7e45be")
-		)
-		(pin "2"
-			(uuid "e6c3feff-c930-47dd-b298-9386912b6be1")
-		)
-		(pin "3"
-			(uuid "9d3be1ce-fef9-4d79-a9a7-21e7fa72c8bd")
-		)
-		(pin "4"
-			(uuid "2a42c658-6c2c-4386-b2c7-acde29d2d7d1")
-		)
-		(pin "5"
-			(uuid "59a640d6-844c-4026-a87b-76c2edc5e284")
-		)
-		(pin "6"
-			(uuid "cc1633a9-1e34-4c95-b7ed-4e3196b4f042")
-		)
-		(pin "7"
-			(uuid "238f3d86-5eb5-4324-99ad-ade155fe925f")
-		)
-		(pin "8"
-			(uuid "bf529850-7018-41f0-8fbf-b18126640077")
-		)
-		(pin "9"
-			(uuid "2d69e921-b8d2-4564-a52d-dd63115eb6c1")
-		)
-		(instances
-			(project "PAL-snes-1chip-schematic"
-				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -56246,6 +56147,104 @@
 			(project "PAL-snes-1chip-schematic"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SNES_Library:AVOUT")
+		(at 441.96 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e408e0-4926-42e2-aede-76dfca19f770")
+		(property "Reference" "P4"
+			(at 441.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AVOUT"
+			(at 441.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c995ba37-9c06-4a80-97e4-8a8d59989ae7")
+		)
+		(pin "8"
+			(uuid "d679a83b-c4d7-4b2a-8b61-7ec9375692ad")
+		)
+		(pin "10"
+			(uuid "d6fc1aff-8972-4a53-bbaa-d1f384028a5d")
+		)
+		(pin "12"
+			(uuid "654bc2dd-06e5-4f9b-9a59-3e0e3da3251e")
+		)
+		(pin "7"
+			(uuid "81a5c0e9-ed96-46e4-b2b4-dd819108d38e")
+		)
+		(pin "2"
+			(uuid "0a4eedc5-7aae-4be3-8e5a-f3e3af7705e3")
+		)
+		(pin "11"
+			(uuid "76a116eb-6850-4ef3-bf15-b9019adfc726")
+		)
+		(pin "9"
+			(uuid "ec45f428-af7c-4ee9-aa76-e499d93aae51")
+		)
+		(pin "4"
+			(uuid "2433d8c8-2f2f-4bbe-81de-35bf459a443d")
+		)
+		(pin "5"
+			(uuid "e452f87b-72db-48f9-8a55-19c7240b474a")
+		)
+		(pin "3"
+			(uuid "cb5b71e3-20cc-4b73-b1ea-33e89cd10d5e")
+		)
+		(pin "1"
+			(uuid "d737e493-d792-4abc-a93d-a5e6e402efdc")
+		)
+		(instances
+			(project ""
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "P4")
 					(unit 1)
 				)
 			)
