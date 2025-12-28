@@ -27,7 +27,7 @@ For the top you will have to salvage the Nintendo components. The video RAM is s
 The audio RAM can probably also be easily replaced, I haven't looked into this yet. Feel free to open an issue about it.
 
 ## Roadmap:
-Get a 1CHIP version going, check out the 1chip branch for the WIP
+Get a 1CHIP version going, [check out the 1chip branch for the WIP](https://github.com/stonedDiscord/nonSNES/tree/1chip)
 
 ## Inspired by
 https://github.com/Redherring32/OpenTendo
