@@ -193,6 +193,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1422,6 +1529,366 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Filter_EMI_LL_1423"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Filter_EMI_LL_1423"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "EMI 2-inductor filter, pin-connections 1-4 and 2-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "EMI filter common-mode choke"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Bourns*SRF0905*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Filter_EMI_LL_1423_0_1"
+				(circle
+					(center -3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.048 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.032) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.508) (xy 2.54 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 2.032)
+					(mid -2.032 1.5262)
+					(end -2.54 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.032)
+					(mid -2.032 -1.5262)
+					(end -1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 2.032)
+					(mid -1.016 1.5262)
+					(end -1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -2.032)
+					(mid -1.016 -1.5262)
+					(end -0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 2.032)
+					(mid 0 1.5262)
+					(end -0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -2.032)
+					(mid 0 -1.5262)
+					(end 0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 2.032)
+					(mid 1.016 1.5262)
+					(end 0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -2.032)
+					(mid 1.016 -1.5262)
+					(end 1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.032)
+					(mid 2.032 1.5262)
+					(end 1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 2.032 -1.5262)
+					(end 2.54 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.508) (xy -2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Filter_EMI_LL_1423_1_1"
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -2520,6 +2987,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PAL-snes-1chip-schematic-rescue:D_Small_ALT-Device"
 			(pin_numbers
 				(hide yes)
@@ -2653,356 +3283,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PAL-snes-1chip-schematic-rescue:EMI_Filter_LL-Device"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Device_EMI_Filter_LL"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "L_* L_CommonMode*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EMI_Filter_LL-Device_0_1"
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.048 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -2.032 1.5262)
-					(end -2.54 2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.032)
-					(mid -2.032 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid -1.016 1.5262)
-					(end -1.524 2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -1.016 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 0 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid 0 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 1.016 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 1.016 -1.5262)
-					(end 1.524 -2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.032)
-					(mid 2.032 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 2.032 -1.5262)
-					(end 2.54 -2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.508) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "EMI_Filter_LL-Device_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9762,6 +10042,101 @@
 				)
 			)
 			(symbol "WRAM_1_0"
+				(pin unspecified line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(hide yes)
+					(name "?"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(hide yes)
+					(name "?"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(hide yes)
+					(name "?"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(hide yes)
+					(name "?"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(hide yes)
+					(name "?"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 12.7 -20.32 180)
 					(length 2.54)
@@ -9845,6 +10220,25 @@
 						)
 					)
 					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -50.8 180)
+					(length 2.54)
+					(hide yes)
+					(name "?"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10875,8 +11269,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 68.58 0)
+			(property "Reference" "U2"
+				(at -7.62 68.58 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10891,7 +11285,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SNES_Library:PQFP-100_14x20mm_P0.65mm"
 				(at -11.43 -39.37 0)
 				(effects
 					(font
@@ -10915,7 +11309,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "S-APU_0_1"
@@ -11878,7 +12271,7 @@
 							)
 						)
 					)
-					(number "72"
+					(number "71"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12328,7 +12721,7 @@
 							)
 						)
 					)
-					(number "71"
+					(number "72"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13764,10 +14157,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Switch:SW_Push_Dual"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -13776,16 +14166,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "SW_Push_Dual"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13793,7 +14182,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13802,7 +14191,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13810,7 +14199,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Description" "Push button switch, generic, symbol, four pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13828,9 +14217,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "SW_Push_Dual_0_1"
 				(circle
-					(center -2.032 0)
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -13842,7 +14242,67 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 0 3.81) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 0 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -13853,7 +14313,18 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -13865,7 +14336,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 2.54 3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -13876,7 +14359,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -13894,7 +14377,25 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -13909,6 +14410,37 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_1_1"
+				(rectangle
+					(start -3.175 5.715)
+					(end 3.175 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -14244,7 +14776,7 @@
 	)
 	(text "AC9V1.3A for PAL\n"
 		(exclude_from_sim no)
-		(at 802.64 86.36 0)
+		(at 801.37 84.074 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14304,6 +14836,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0361eb4c-765a-45a4-8104-a6f08fe71b63")
+	)
+	(junction
+		(at 422.91 501.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03f830e3-0ef1-41cd-9760-12d19d3651d5")
+	)
+	(junction
+		(at 287.02 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0449b33f-fb01-4beb-b6cc-70289a7dd757")
 	)
 	(junction
 		(at 232.41 279.4)
@@ -14630,12 +15174,6 @@
 		(uuid "2e49e93e-32eb-4d52-a523-0813f3289987")
 	)
 	(junction
-		(at 427.99 491.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32eff5f6-af7c-476f-aa6a-30ca0f56ba3d")
-	)
-	(junction
 		(at 168.91 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14924,6 +15462,12 @@
 		(uuid "58f9d308-ce14-4194-9de8-bca1a2baeb23")
 	)
 	(junction
+		(at 427.99 491.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5969f485-840a-4d18-8e04-4b8c5263623d")
+	)
+	(junction
 		(at 165.1 542.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15164,7 +15708,7 @@
 		(uuid "8430bbc4-1d08-4aca-8976-c4fe1860e86d")
 	)
 	(junction
-		(at 778.51 90.17)
+		(at 778.51 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84aa4f5b-18f8-4a52-8e92-50771592cbb5")
@@ -15228,12 +15772,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9014f91d-954b-4812-9aa0-c1f94d214891")
-	)
-	(junction
-		(at 736.6 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9041d5c9-f9c2-41fb-b622-f42a9026c2cb")
 	)
 	(junction
 		(at 231.14 95.25)
@@ -15302,6 +15840,12 @@
 		(uuid "94daa5c3-c482-49e0-9dc7-7932a9fd91e9")
 	)
 	(junction
+		(at 100.33 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "999ce8a4-91ff-48bf-b122-19f09cd70edb")
+	)
+	(junction
 		(at 102.87 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15350,6 +15894,12 @@
 		(uuid "9f056b27-ee4e-4397-8ddd-998b67d65c2e")
 	)
 	(junction
+		(at 448.31 511.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4e58b4-6866-4230-8bd5-184628b6c0e8")
+	)
+	(junction
 		(at 165.1 463.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15362,7 +15912,7 @@
 		(uuid "a287d616-e03d-46a8-b277-98fea94df4b0")
 	)
 	(junction
-		(at 778.51 85.09)
+		(at 778.51 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a29764f9-1240-4acb-affd-0dd0d0f0ab14")
@@ -15644,6 +16194,18 @@
 		(uuid "c91293a7-8e55-4208-82bc-7c80198402d6")
 	)
 	(junction
+		(at 736.6 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c6a53f-0af4-41fa-b835-0c6c1c62d407")
+	)
+	(junction
+		(at 281.94 561.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca2f9d83-abe3-4990-bede-4ba9ddca3fb7")
+	)
+	(junction
 		(at 716.28 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15794,6 +16356,12 @@
 		(uuid "deca6688-ca23-4aa5-b039-77504314bbc5")
 	)
 	(junction
+		(at 299.72 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0c135bc-042f-4ae7-b1db-4881d10fb501")
+	)
+	(junction
 		(at 43.18 447.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15876,6 +16444,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ece42e6a-f546-4be4-9439-00d7373aa23e")
+	)
+	(junction
+		(at 113.03 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed21fadd-4f50-49bc-b587-559ffe866f51")
 	)
 	(junction
 		(at 125.73 191.77)
@@ -16008,6 +16582,14 @@
 		(uuid "0cbfb8b0-e9c7-4c0d-b4e6-766fbcfb66e8")
 	)
 	(no_connect
+		(at 160.02 514.35)
+		(uuid "0f665de3-add3-433e-bffc-0055cf21b20e")
+	)
+	(no_connect
+		(at 160.02 481.33)
+		(uuid "10167192-539c-48f3-b797-e652a256fe63")
+	)
+	(no_connect
 		(at 347.98 222.25)
 		(uuid "109ff9ef-b736-4f85-8d5d-af8f7dcf8abb")
 	)
@@ -16106,6 +16688,10 @@
 	(no_connect
 		(at 165.1 377.19)
 		(uuid "e0de2ddb-ac0d-40b7-9ad5-d26e82e2cf94")
+	)
+	(no_connect
+		(at 160.02 537.21)
+		(uuid "e29ace2f-7ff5-4d01-b306-c71ad9a19fd9")
 	)
 	(no_connect
 		(at 88.9 139.7)
@@ -19270,6 +19856,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 491.49) (xy 419.1 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08343eaa-1375-497b-8902-948667dd69cd")
+	)
+	(wire
+		(pts
 			(xy 453.39 81.28) (xy 500.38 81.28)
 		)
 		(stroke
@@ -19987,6 +20583,16 @@
 			(type default)
 		)
 		(uuid "12cf625c-c901-45b1-9260-8b835b5fb473")
+	)
+	(wire
+		(pts
+			(xy 299.72 219.71) (xy 304.8 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d7fbfb-775f-4f7f-80e6-a1c6fb0589dd")
 	)
 	(wire
 		(pts
@@ -20848,6 +21454,16 @@
 		)
 		(uuid "1fbc528c-2684-4a77-98d2-39ad3d70c422")
 	)
+	(wire
+		(pts
+			(xy 96.52 193.04) (xy 96.52 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbfaf8a-e5f2-4d7a-b56e-bcaf847160ca")
+	)
 	(bus
 		(pts
 			(xy 104.14 504.19) (xy 104.14 506.73)
@@ -20957,6 +21573,16 @@
 			(type default)
 		)
 		(uuid "217dc4ed-6fe7-4235-8281-a74a6b0f590c")
+	)
+	(wire
+		(pts
+			(xy 69.85 203.2) (xy 69.85 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21da564c-41e8-4ecf-801c-6337bd270747")
 	)
 	(bus
 		(pts
@@ -21327,6 +21953,16 @@
 			(type default)
 		)
 		(uuid "27b079e4-7b93-4bfd-9063-4ec64f3c489f")
+	)
+	(wire
+		(pts
+			(xy 62.23 203.2) (xy 60.96 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27dc8735-578f-4c9b-947f-058bbc0a4f1e")
 	)
 	(wire
 		(pts
@@ -21720,7 +22356,7 @@
 	)
 	(wire
 		(pts
-			(xy 786.13 85.09) (xy 778.51 85.09)
+			(xy 786.13 90.17) (xy 778.51 90.17)
 		)
 		(stroke
 			(width 0)
@@ -21977,16 +22613,6 @@
 			(type default)
 		)
 		(uuid "327cc91b-eacb-4f18-9394-a7e8958b20a0")
-	)
-	(wire
-		(pts
-			(xy 778.51 85.09) (xy 772.16 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3287198c-fd2f-4736-b03f-6d788185c029")
 	)
 	(wire
 		(pts
@@ -22830,6 +23456,16 @@
 	)
 	(wire
 		(pts
+			(xy 772.16 85.09) (xy 778.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409f3734-e8a2-4198-b295-5e47bd2b9a89")
+	)
+	(wire
+		(pts
 			(xy 326.39 304.8) (xy 332.74 304.8)
 		)
 		(stroke
@@ -23287,6 +23923,16 @@
 			(type default)
 		)
 		(uuid "487147fa-019b-4f63-bb71-bd239db4beba")
+	)
+	(wire
+		(pts
+			(xy 772.16 90.17) (xy 778.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ec8518-5f41-4c53-88c1-33711426b087")
 	)
 	(wire
 		(pts
@@ -24480,6 +25126,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 203.2) (xy 60.96 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e12742c-7c63-4d54-a038-e0d2b973ecdf")
+	)
+	(wire
+		(pts
 			(xy 96.52 234.95) (xy 129.54 234.95)
 		)
 		(stroke
@@ -24597,6 +25253,16 @@
 			(type default)
 		)
 		(uuid "608fbdfd-ca30-40a0-b674-a3c63c407644")
+	)
+	(wire
+		(pts
+			(xy 736.6 72.39) (xy 736.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6093faa2-3d5b-4559-a616-223d4a08a609")
 	)
 	(wire
 		(pts
@@ -25700,6 +26366,16 @@
 	)
 	(wire
 		(pts
+			(xy 736.6 77.47) (xy 749.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa7fd7b-51d3-4199-a04d-d61418fe1997")
+	)
+	(wire
+		(pts
 			(xy 160.02 501.65) (xy 187.96 501.65)
 		)
 		(stroke
@@ -25857,6 +26533,16 @@
 			(type default)
 		)
 		(uuid "7220f65d-ed44-4997-bd15-30cb0fdeb7ff")
+	)
+	(wire
+		(pts
+			(xy 320.04 259.08) (xy 328.93 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7232a816-87a1-4ec8-aa6d-3b9e434b752b")
 	)
 	(bus
 		(pts
@@ -26300,7 +26986,7 @@
 	)
 	(wire
 		(pts
-			(xy 778.51 90.17) (xy 786.13 90.17)
+			(xy 778.51 85.09) (xy 786.13 85.09)
 		)
 		(stroke
 			(width 0)
@@ -26640,7 +27326,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 209.55) (xy 116.84 209.55)
+			(xy 290.83 219.71) (xy 287.02 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa76942-3671-4bfe-9c94-38f3f7d023b0")
+	)
+	(wire
+		(pts
+			(xy 111.76 209.55) (xy 113.03 209.55)
 		)
 		(stroke
 			(width 0)
@@ -26917,16 +27613,6 @@
 			(type default)
 		)
 		(uuid "8403fea8-10a6-45e3-a07a-71b0b948056d")
-	)
-	(wire
-		(pts
-			(xy 772.16 90.17) (xy 778.51 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8410776e-782e-4b29-a458-eed170545b8c")
 	)
 	(wire
 		(pts
@@ -27557,6 +28243,16 @@
 			(type default)
 		)
 		(uuid "8d7490e2-f940-43a3-9f15-5f6bf3a90898")
+	)
+	(wire
+		(pts
+			(xy 281.94 561.34) (xy 281.94 572.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7e51ee-a6f1-45ec-9323-140bae8e3f13")
 	)
 	(wire
 		(pts
@@ -28597,6 +29293,16 @@
 			(type default)
 		)
 		(uuid "9d6e6ddf-188e-4633-bd19-6ad2f1f17a5f")
+	)
+	(wire
+		(pts
+			(xy 419.1 501.65) (xy 422.91 501.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8541d8-6967-4b74-9cd9-1d569502e3e8")
 	)
 	(wire
 		(pts
@@ -29710,7 +30416,7 @@
 	)
 	(wire
 		(pts
-			(xy 726.44 77.47) (xy 749.3 77.47)
+			(xy 726.44 77.47) (xy 736.6 77.47)
 		)
 		(stroke
 			(width 0)
@@ -29827,6 +30533,16 @@
 			(type default)
 		)
 		(uuid "afb1a1e2-7341-4472-8226-b8fd0cc2c589")
+	)
+	(wire
+		(pts
+			(xy 113.03 209.55) (xy 116.84 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbbc2e0-91a0-4ebd-b8de-d9afaea4ae2e")
 	)
 	(bus
 		(pts
@@ -30040,7 +30756,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 219.71) (xy 304.8 219.71)
+			(xy 295.91 219.71) (xy 299.72 219.71)
 		)
 		(stroke
 			(width 0)
@@ -31087,16 +31803,6 @@
 			(type default)
 		)
 		(uuid "c3bd195e-1b65-47bc-b093-3678ea2e6665")
-	)
-	(wire
-		(pts
-			(xy 736.6 83.82) (xy 736.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3d7e5e1-b70e-4b35-bd01-1a2a74c2d7e7")
 	)
 	(bus
 		(pts
@@ -32340,6 +33046,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 190.5) (xy 100.33 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71978e5-99c0-4015-938f-3370e551c1a5")
+	)
+	(wire
+		(pts
 			(xy 332.74 312.42) (xy 292.1 312.42)
 		)
 		(stroke
@@ -33210,6 +33926,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 203.2) (xy 69.85 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f2f8c6-b156-4654-ac2b-46da9db52fa1")
+	)
+	(wire
+		(pts
 			(xy 194.31 233.68) (xy 207.01 233.68)
 		)
 		(stroke
@@ -33770,7 +34496,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 209.55) (xy 109.22 209.55)
+			(xy 104.14 209.55) (xy 106.68 209.55)
 		)
 		(stroke
 			(width 0)
@@ -34067,6 +34793,16 @@
 			(type default)
 		)
 		(uuid "f36cff34-db77-4259-acb8-6ff85ab86ad8")
+	)
+	(wire
+		(pts
+			(xy 419.1 491.49) (xy 419.1 501.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36e6d95-9fab-4d8d-ab7e-71be95bb6273")
 	)
 	(bus
 		(pts
@@ -34938,6 +35674,16 @@
 		)
 		(uuid "017a8df2-95eb-4e20-8b71-ab390b915efe")
 	)
+	(label "IN_TIP"
+		(at 772.16 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "020c01d6-a9af-442a-8f92-ca550b4b0c60")
+	)
 	(label "D0"
 		(at 182.88 534.67 0)
 		(effects
@@ -35708,6 +36454,16 @@
 		)
 		(uuid "45cac325-fefc-4cf2-b506-9e49d9a417df")
 	)
+	(label "RECTIFIED"
+		(at 701.04 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46875cb9-d06c-416d-aba5-b5341d462ca9")
+	)
 	(label "PA2"
 		(at 233.68 538.48 0)
 		(effects
@@ -35837,6 +36593,16 @@
 			(justify left bottom)
 		)
 		(uuid "52d83fc2-d548-491b-96b4-24bafcce615c")
+	)
+	(label "FUSED"
+		(at 680.72 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ede2e4-447a-4bae-bc1f-b78f41c392a8")
 	)
 	(label "~{RAMSEL}"
 		(at 110.49 524.51 0)
@@ -36998,6 +37764,16 @@
 		)
 		(uuid "af684e48-2f8a-4716-8ad3-585168b4a952")
 	)
+	(label "FILTERED_SLEEVE"
+		(at 749.3 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0cbae9c-8d1e-4376-9d48-09b0d4098426")
+	)
 	(label "D4"
 		(at 326.39 281.94 0)
 		(effects
@@ -37037,6 +37813,16 @@
 			(justify left bottom)
 		)
 		(uuid "b3b696f4-7551-4d3f-88cc-2b5d906ac8fe")
+	)
+	(label "IN_SLEEVE"
+		(at 772.16 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b67e7ebb-c878-4726-939b-b4aa3e906787")
 	)
 	(label "VDA5"
 		(at 231.14 292.1 0)
@@ -37378,6 +38164,16 @@
 		)
 		(uuid "d2aec272-9d35-4d1b-8ab2-e7b0e6224bcb")
 	)
+	(label "SWITCHED"
+		(at 657.86 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2af4f6f-592e-4637-af9c-9118c97f0fe1")
+	)
 	(label "VAB9"
 		(at 166.37 222.25 0)
 		(effects
@@ -37487,6 +38283,16 @@
 			(justify left bottom)
 		)
 		(uuid "ded30e19-ec39-4596-b029-11bd53e530f4")
+	)
+	(label "FILTERED_TIP"
+		(at 749.3 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfb6d676-deb2-4193-bc11-6ff49598e4ad")
 	)
 	(label "D6"
 		(at 347.98 506.73 0)
@@ -41261,7 +42067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PAL-snes-1chip-schematic-rescue:EMI_Filter_LL-Device")
+		(lib_id "Device:Filter_EMI_LL_1423")
 		(at 767.08 87.63 0)
 		(mirror y)
 		(unit 1)
@@ -41287,6 +42093,15 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_TDK_ACM7060"
+			(at 767.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 767.08 86.614 90)
 			(effects
 				(font
@@ -41295,20 +42110,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 745.49 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "EMI 2-inductor filter, pin-connections 1-4 and 2-3"
 			(at 767.08 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -41532,6 +42340,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 778.51 87.63 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41539,7 +42348,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d8fd2c9")
 		(property "Reference" "C30"
-			(at 780.8468 86.4616 0)
+			(at 780.8468 88.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41548,7 +42357,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 780.8468 88.773 0)
+			(at 780.8468 86.487 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42002,7 +42811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 289.56 219.71 270)
+		(at 293.37 219.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42010,7 +42819,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dce2133")
 		(property "Reference" "R4"
-			(at 289.56 217.17 90)
+			(at 293.37 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42018,7 +42827,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 289.56 222.25 90)
+			(at 293.37 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42026,7 +42835,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 289.56 219.71 0)
+			(at 293.37 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42035,7 +42844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 219.71 0)
+			(at 293.37 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42044,7 +42853,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 219.71 0)
+			(at 293.37 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44016,7 +44825,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 209.55 270)
+		(at 109.22 209.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44024,7 +44833,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e55a20c")
 		(property "Reference" "C1"
-			(at 109.855 207.01 90)
+			(at 107.315 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44032,7 +44841,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 113.03 207.01 90)
+			(at 110.49 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44040,7 +44849,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 111.76 209.55 0)
+			(at 109.22 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44049,7 +44858,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 209.55 0)
+			(at 109.22 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44058,7 +44867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 209.55 0)
+			(at 109.22 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44149,7 +44958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 209.55 270)
+		(at 104.14 209.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44157,7 +44966,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e5b3f8f")
 		(property "Reference" "#PWR0132"
-			(at 100.33 209.55 0)
+			(at 97.79 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44166,7 +44975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 103.4288 209.677 90)
+			(at 100.8888 209.677 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44175,7 +44984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 209.55 0)
+			(at 104.14 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44184,7 +44993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 209.55 0)
+			(at 104.14 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44193,7 +45002,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 209.55 0)
+			(at 104.14 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50254,75 +51063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 427.99 496.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006318df7d")
-		(property "Reference" "RESET_SW1"
-			(at 429.2092 497.7384 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RESET"
-			(at 429.2092 495.427 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SNES_Library:ResetSwitch"
-			(at 422.91 496.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 422.91 496.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 427.99 496.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd1c5c2e-b8d5-4cc2-8d34-3c9d45c0b320")
-		)
-		(pin "2"
-			(uuid "cae83ea3-c8e6-4a79-9db1-ff48e65acbf7")
-		)
-		(instances
-			(project "PAL-snes-1chip-schematic"
-				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "RESET_SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 96.52 44.45 0)
 		(unit 1)
@@ -52724,7 +53464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 419.1 288.29 0)
 			(effects
 				(font
@@ -54843,7 +55583,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Jack-DC")
-		(at 793.75 87.63 180)
+		(at 793.75 87.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54852,7 +55593,7 @@
 		(fields_autoplaced yes)
 		(uuid "021f3adf-f630-4416-bee2-cec7f158470e")
 		(property "Reference" "J1"
-			(at 800.1 86.3599 0)
+			(at 800.1 88.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54861,7 +55602,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 800.1 88.8999 0)
+			(at 800.1 86.3601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54870,7 +55611,7 @@
 			)
 		)
 		(property "Footprint" "SNES_Library:DcJack"
-			(at 792.48 86.614 0)
+			(at 792.48 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54879,7 +55620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 792.48 86.614 0)
+			(at 792.48 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54906,6 +55647,76 @@
 			(project "PAL-snes-1chip-schematic"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 96.52 195.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "059cc9a0-7c0a-42c4-9873-e886589c9104")
+		(property "Reference" "C20"
+			(at 94.1832 194.4116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "?"
+			(at 94.1832 196.723 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 96.52 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dd0b42a-e206-43a4-a4fc-ad49eecf4344")
+		)
+		(pin "2"
+			(uuid "eb66cffd-daa8-447a-8305-e8855b04eaee")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -54973,6 +55784,75 @@
 			(project "nonSNES"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 448.31 514.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1222ff57-4ddd-400a-beb8-5bd8762ac2b1")
+		(property "Reference" "C74"
+			(at 450.6468 513.1816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "?"
+			(at 450.6468 515.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 448.31 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 448.31 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "392cd78e-89c6-4f02-95d1-b9df8f8bdce1")
+		)
+		(pin "2"
+			(uuid "136419de-3ea8-423e-b47f-7ec159005339")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -55361,6 +56241,468 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 772.16 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d9819ff-989d-4f85-ac77-9016484b66c5")
+		(property "Reference" "H15"
+			(at 774.7 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 774.7 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 772.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 772.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 772.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 789.94 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b979a9b-b3c0-43b6-b22c-0cb4645a101e")
+		(property "Reference" "H1"
+			(at 792.48 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 792.48 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 789.94 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 789.94 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 789.94 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 812.8 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388fc316-49e0-4c00-918f-efa9c52e8d4c")
+		(property "Reference" "H9"
+			(at 815.34 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 815.34 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 812.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 812.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual")
+		(at 425.45 496.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a5846c8-c2b8-47be-be32-1167472f4891")
+		(property "Reference" "SW1"
+			(at 431.8 497.8401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RESET"
+			(at 431.8 495.3001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SNES_Library:ResetSwitch"
+			(at 433.07 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 425.45 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7351283c-b2b5-4383-84e5-0f4e15ae3197")
+		)
+		(pin "1"
+			(uuid "4a6ab29a-e415-45d6-a2ea-6296ed397104")
+		)
+		(pin "4"
+			(uuid "c12a5722-4ee4-4b24-9578-eea2c272c463")
+		)
+		(pin "2"
+			(uuid "1a7e17eb-809a-4d29-87c3-6db774876989")
+		)
+		(instances
+			(project ""
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 281.94 577.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40f769c8-6f88-43a3-bc93-c0b26418f534")
+		(property "Reference" "#PWR06"
+			(at 281.94 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 282.067 582.2442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f0d330a-0c9f-46ac-89ba-fb9a94317eff")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 812.8 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d502a9a-127c-4e95-ae5d-dd8218a03641")
+		(property "Reference" "H7"
+			(at 815.34 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 815.34 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 812.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 812.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 320.04 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f860499-b65d-4233-991f-4c7e0cd009d1")
+		(property "Reference" "#PWR03"
+			(at 320.04 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.167 268.5542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d02bb994-7fa1-4e63-a36a-959d989793d7")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 619.76 83.82 90)
 		(unit 1)
@@ -55422,6 +56764,70 @@
 			(project ""
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 789.94 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a28d6ce-7f00-4e6a-9a42-65fb9d9d08fb")
+		(property "Reference" "H2"
+			(at 792.48 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 792.48 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 789.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 789.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 789.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -55568,6 +56974,589 @@
 			(project ""
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "P5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6066ded4-a4ea-4e92-88c5-53c9a2a8e951")
+		(property "Reference" "#PWR02"
+			(at 96.52 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.647 202.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8c30e3c-3955-4205-8ca6-68a05258edae")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 789.94 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64701ecc-580d-4d3a-ad3f-f98da542fd72")
+		(property "Reference" "H5"
+			(at 792.48 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 792.48 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 789.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 789.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 789.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 812.8 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69eda11b-a836-4044-a754-6215ad70bb82")
+		(property "Reference" "FID1"
+			(at 815.34 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 815.34 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask2.25mm"
+			(at 812.8 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 812.8 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 287.02 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f2aa8a1-3171-4921-bff7-650edcdcaf7a")
+		(property "Reference" "#PWR08"
+			(at 287.02 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.147 228.0412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9339bdf1-fdcb-4664-9937-cd26b1ebf5d7")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 772.16 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75c9dc7d-956f-4e5a-98ef-9fde93ae3e69")
+		(property "Reference" "H12"
+			(at 774.7 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 774.7 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 772.16 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 772.16 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 772.16 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 789.94 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1e0d5d-0dbd-4437-ab1f-eb441e22d851")
+		(property "Reference" "H6"
+			(at 792.48 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 792.48 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 789.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 789.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 789.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 422.91 501.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8082080b-c8d7-47f3-8e76-d66a234b5998")
+		(property "Reference" "#PWR04"
+			(at 422.91 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 423.037 506.0442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 422.91 501.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 422.91 501.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 422.91 501.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cf51446-eb0b-4c5a-8bed-89c329fd2c1b")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 287.02 222.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e44d6da-becc-4a1a-8380-ff1a93e47bac")
+		(property "Reference" "C77"
+			(at 290.195 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 283.845 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c900a22c-9b76-4b49-9182-6764e1edbaec")
+		)
+		(pin "2"
+			(uuid "b9205e32-d13a-4f72-a3d4-d9c1c16cfd5e")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 812.8 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9a0deb-317c-4246-80a1-a59c31308476")
+		(property "Reference" "FID2"
+			(at 815.34 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 815.34 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask2.25mm"
+			(at 812.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 812.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -55800,10 +57789,357 @@
 		(pin "35"
 			(uuid "d9ffa8a0-6e3e-434f-a071-97b2fe3c60e5")
 		)
+		(pin "18"
+			(uuid "458e5f84-0cf5-4278-af76-3b8e1f2fd96a")
+		)
+		(pin "19"
+			(uuid "42e173cc-9b33-492e-958c-8d50d673dc77")
+		)
+		(pin "20"
+			(uuid "f4eb37c9-5f97-4f29-b49b-b51ee68d52c6")
+		)
+		(pin "21"
+			(uuid "157cb79c-72f7-4096-adf4-638b3b66c902")
+		)
+		(pin "22"
+			(uuid "fed632df-2c94-43e0-962d-c688d5fab3b0")
+		)
+		(pin "9"
+			(uuid "49674164-39a8-4df5-9fb4-ee5e7642b4be")
+		)
 		(instances
 			(project ""
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 320.04 261.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a222e766-bcbe-4419-b130-8b691c82ae72")
+		(property "Reference" "C55"
+			(at 317.7032 260.4516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "?"
+			(at 317.7032 262.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 320.04 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "920c3d2b-aeb1-43f2-be2e-58c156ee77cf")
+		)
+		(pin "2"
+			(uuid "d409e5f1-89d2-4175-a42d-b6fbb4e44a77")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 812.8 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a532abf8-ea06-4ccc-81c3-4453f28ed4c7")
+		(property "Reference" "H10"
+			(at 815.34 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 815.34 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 812.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 812.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 812.8 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc171cd-6857-434f-9621-2ed2a28fd2e8")
+		(property "Reference" "H8"
+			(at 815.34 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 815.34 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 812.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 812.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afd652c2-03ad-4275-b4c9-40625c8b063b")
+		(property "Reference" "TP1"
+			(at 115.57 204.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 115.57 207.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 118.11 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9478626f-468b-4063-9327-92cfa10be6a0")
+		)
+		(instances
+			(project ""
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 789.94 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afff1184-89de-4828-bea8-8c457b368b7c")
+		(property "Reference" "H3"
+			(at 792.48 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 792.48 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 789.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 789.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 789.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -55869,6 +58205,70 @@
 			(project "nonSNES"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 772.16 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3af743b-b332-4140-b093-e0f0da540051")
+		(property "Reference" "H13"
+			(at 774.7 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 774.7 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 772.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 772.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 772.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -55944,6 +58344,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 772.16 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba08ca5f-7506-4beb-aa38-c1751d2f0e1e")
+		(property "Reference" "H14"
+			(at 774.7 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 774.7 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 772.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 772.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 772.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener_Dual_CommonCathode_AAK")
 		(at 589.915 35.56 180)
 		(unit 1)
@@ -56009,6 +58473,138 @@
 			(project "PAL-snes-1chip-schematic"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 448.31 516.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4f44569-e2b3-4aba-815b-f50424f06fa1")
+		(property "Reference" "#PWR05"
+			(at 448.31 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 448.437 521.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 516.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 516.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 516.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd3e87c9-92e7-4f7a-a71a-3a5e62116824")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 203.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c51db18b-70a2-462a-90a1-09b14fdefe8f")
+		(property "Reference" "C73"
+			(at 64.77 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 64.77 200.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 64.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cb1d7c2-c3d2-46c3-83d3-3410e541d2f7")
+		)
+		(pin "1"
+			(uuid "ecadec6e-c913-4751-977e-953646b8baf4")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -56178,6 +58774,336 @@
 			(project ""
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 299.72 222.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d07a884b-56c0-4c2e-b9cf-f8ef827496b7")
+		(property "Reference" "C76"
+			(at 302.895 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 296.545 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 299.72 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d2c5b20-a30e-4448-a14a-998556846eb2")
+		)
+		(pin "2"
+			(uuid "905b53dd-b2d4-47da-ab21-46bd93a0014a")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 789.94 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1af6467-69ee-41b5-aef4-8eabed3d501e")
+		(property "Reference" "H4"
+			(at 792.48 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 792.48 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 789.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 789.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 789.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 812.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e817de-a272-454a-b774-4a7cd14adfbc")
+		(property "Reference" "H11"
+			(at 815.34 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 815.34 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm"
+			(at 812.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 812.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef3aeada-1d47-4865-810b-c24ee88804ec")
+		(property "Reference" "#PWR07"
+			(at 299.72 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.847 228.0412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0e922f8-1406-43ca-aa17-9fd207707df4")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 281.94 575.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0149f9e-a7eb-4a8b-8a9d-ecd229c0fe30")
+		(property "Reference" "C75"
+			(at 284.2768 574.1416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "?"
+			(at 284.2768 576.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 281.94 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3475dbcd-5858-4101-86c0-3ce8b7a37deb")
+		)
+		(pin "2"
+			(uuid "d6152bb2-872e-4bff-a105-b099ca20a72a")
+		)
+		(instances
+			(project "nonSNES"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "C75")
 					(unit 1)
 				)
 			)
