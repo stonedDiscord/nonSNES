@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -78,6 +80,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -96,6 +99,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -115,9 +119,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -490,7 +497,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nonSNES.kicad_pro",
+    "filename": "SNSP-CPU-01.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -667,8 +674,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "nonSNES.kicad_sch",
-        "name": "nonSNES",
+        "filename": "SNSP-CPU-01.kicad_sch",
+        "name": "SNSP-CPU-01",
         "uuid": "d1480d56-b791-43e1-bd4c-b0c74bb0533d"
       }
     ],
@@ -678,7 +685,7 @@
   "sheets": [
     [
       "d1480d56-b791-43e1-bd4c-b0c74bb0533d",
-      "nonSNES"
+      "SNSP-CPU-01"
     ]
   ],
   "text_variables": {},
