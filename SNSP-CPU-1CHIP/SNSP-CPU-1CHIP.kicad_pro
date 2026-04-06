@@ -118,7 +118,7 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "ignore",
         "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
@@ -127,7 +127,7 @@
         "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -679,7 +679,7 @@
         "uuid": "970a1e40-f696-40a3-bdbd-127ff2081acf"
       }
     ],
-    "used_designators": "H9,H16,#PWR178-181,R5,R7-8,R31,C78",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
