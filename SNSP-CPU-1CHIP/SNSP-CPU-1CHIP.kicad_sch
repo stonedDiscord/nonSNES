@@ -490,6 +490,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -3242,6 +3419,129 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -15618,6 +15918,12 @@
 		(uuid "13b4033c-8463-4f3a-ab90-72e28f612aff")
 	)
 	(junction
+		(at 299.72 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fbddb0-f1f2-44e5-b421-ad741f6931b5")
+	)
+	(junction
 		(at 242.57 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15652,6 +15958,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "184abe47-8a9f-4d0c-a3db-92e789c88a90")
+	)
+	(junction
+		(at 289.56 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "185e9dae-586e-4171-a484-2d21f7216084")
+	)
+	(junction
+		(at 289.56 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19596a83-15a5-47b9-9075-52bf5e7c766b")
 	)
 	(junction
 		(at 476.25 473.71)
@@ -16254,6 +16572,12 @@
 		(uuid "655a6199-65ec-4cc4-83eb-b17be7b4f52c")
 	)
 	(junction
+		(at 398.78 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6596bcf0-bb72-4eb5-b049-27c1d2d174e4")
+	)
+	(junction
 		(at 168.91 364.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16366,6 +16690,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "764dfe4c-1c6b-4e0c-bcbb-96847b1b1cd0")
+	)
+	(junction
+		(at 294.64 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "764e3287-fa95-44b3-9204-da8feba2db33")
 	)
 	(junction
 		(at 207.01 302.26)
@@ -17214,12 +17544,6 @@
 		(uuid "deca6688-ca23-4aa5-b039-77504314bbc5")
 	)
 	(junction
-		(at 299.72 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0c135bc-042f-4ae7-b1db-4881d10fb501")
-	)
-	(junction
 		(at 207.01 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17230,6 +17554,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e20390bd-1f89-4d3d-aba4-33149d2aab6f")
+	)
+	(junction
+		(at 284.48 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e690da-fbdc-4b51-98b0-76d73f734071")
 	)
 	(junction
 		(at 199.39 95.25)
@@ -21468,7 +21798,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 219.71) (xy 304.8 219.71)
+			(xy 295.91 219.71) (xy 299.72 219.71)
 		)
 		(stroke
 			(width 0)
@@ -22708,6 +23038,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 176.53) (xy 294.64 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254fa721-c4ed-42be-90f8-da1fc90d43df")
+	)
+	(wire
+		(pts
 			(xy 318.77 276.86) (xy 332.74 276.86)
 		)
 		(stroke
@@ -22858,6 +23198,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 207.01) (xy 294.64 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27df2464-c3a2-48d6-9d3b-a442e6c93d0f")
+	)
+	(wire
+		(pts
 			(xy 364.49 274.32) (xy 360.68 274.32)
 		)
 		(stroke
@@ -22885,6 +23235,16 @@
 			(type default)
 		)
 		(uuid "289aee6d-cf23-4b3a-bd7d-02a318867f61")
+	)
+	(wire
+		(pts
+			(xy 793.75 40.64) (xy 805.18 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e35e0f-ddb7-4b1a-9202-86bd75629617")
 	)
 	(bus
 		(pts
@@ -23028,6 +23388,16 @@
 	)
 	(wire
 		(pts
+			(xy 408.94 302.26) (xy 408.94 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b155de5-dd41-4e28-bbe7-8db9bdc639da")
+	)
+	(wire
+		(pts
 			(xy 125.73 389.89) (xy 129.54 389.89)
 		)
 		(stroke
@@ -23105,6 +23475,16 @@
 			(type default)
 		)
 		(uuid "2c47dced-aea0-44ae-a841-1759cb45b026")
+	)
+	(wire
+		(pts
+			(xy 284.48 189.23) (xy 298.45 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c51a177-9aac-467e-8a64-aed86c833e36")
 	)
 	(wire
 		(pts
@@ -23485,6 +23865,16 @@
 			(type default)
 		)
 		(uuid "3251b179-5a8b-4fba-af43-ea8df49f482d")
+	)
+	(wire
+		(pts
+			(xy 289.56 198.12) (xy 298.45 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325a66af-cdd4-4713-a35e-3d2d98baede1")
 	)
 	(wire
 		(pts
@@ -24275,6 +24665,16 @@
 			(type default)
 		)
 		(uuid "3fc6cda7-ec19-47bf-9c1d-9729127348ec")
+	)
+	(wire
+		(pts
+			(xy 299.72 219.71) (xy 304.8 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40120084-ab2f-4a70-8503-cd83036d6ac4")
 	)
 	(wire
 		(pts
@@ -25598,6 +25998,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 201.93) (xy 320.04 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589fe19c-b7b3-4c76-90d5-f67bb4679b56")
+	)
+	(wire
+		(pts
 			(xy 292.1 516.89) (xy 292.1 556.26)
 		)
 		(stroke
@@ -25735,16 +26145,6 @@
 			(type default)
 		)
 		(uuid "5a9b1d37-551e-4b35-b97c-b43cdc544457")
-	)
-	(wire
-		(pts
-			(xy 299.72 207.01) (xy 320.04 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab137c0-c27b-4ac1-a8d4-d8cd21def87a")
 	)
 	(wire
 		(pts
@@ -26878,6 +27278,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 207.01) (xy 320.04 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697f606b-e1cc-4ee0-b7a2-01050f45cac8")
+	)
+	(wire
+		(pts
 			(xy 237.49 543.56) (xy 240.03 543.56)
 		)
 		(stroke
@@ -27678,16 +28088,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 189.23) (xy 280.67 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75715596-34b8-46c7-b910-1ff543b926e0")
-	)
-	(wire
-		(pts
 			(xy 168.91 189.23) (xy 168.91 191.77)
 		)
 		(stroke
@@ -27905,6 +28305,16 @@
 			(type default)
 		)
 		(uuid "7a1d5104-72ec-4268-90d2-4f5d61222a5f")
+	)
+	(wire
+		(pts
+			(xy 408.94 311.15) (xy 392.43 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a250201-0fa6-4a02-9816-d562b9fff1f1")
 	)
 	(wire
 		(pts
@@ -28758,7 +29168,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 189.23) (xy 306.07 189.23)
+			(xy 303.53 189.23) (xy 306.07 189.23)
 		)
 		(stroke
 			(width 0)
@@ -28825,6 +29235,16 @@
 			(type default)
 		)
 		(uuid "8899230b-35d0-4395-98ac-af1578692db7")
+	)
+	(wire
+		(pts
+			(xy 294.64 207.01) (xy 298.45 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88dc429b-a15d-46d2-91fd-adacb6c38c0e")
 	)
 	(bus
 		(pts
@@ -30518,6 +30938,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 181.61) (xy 294.64 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c0011d-0a99-46c3-a521-5b5fcf10870f")
+	)
+	(wire
+		(pts
 			(xy 215.9 476.25) (xy 215.9 528.32)
 		)
 		(stroke
@@ -30695,16 +31125,6 @@
 			(type default)
 		)
 		(uuid "a53f3576-8493-4bd9-a318-5616277e1aa6")
-	)
-	(wire
-		(pts
-			(xy 294.64 198.12) (xy 280.67 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5505be3-b723-4cb6-899a-cd0afe655db6")
 	)
 	(wire
 		(pts
@@ -30955,6 +31375,16 @@
 			(type default)
 		)
 		(uuid "a9143224-30dd-4961-a4a7-23e28cfb1dd8")
+	)
+	(wire
+		(pts
+			(xy 284.48 176.53) (xy 289.56 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9145e28-50c4-4d47-964b-492450898cc5")
 	)
 	(wire
 		(pts
@@ -31255,6 +31685,16 @@
 			(type default)
 		)
 		(uuid "ac803b11-9a4f-4dc5-aa05-879348e867da")
+	)
+	(wire
+		(pts
+			(xy 816.61 48.26) (xy 828.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8f201e-1b11-4152-9c9b-3de2bbce5557")
 	)
 	(wire
 		(pts
@@ -31648,16 +32088,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 219.71) (xy 299.72 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d86483-582f-43d6-954d-39d50abbf576")
-	)
-	(wire
-		(pts
 			(xy 269.24 551.18) (xy 269.24 543.56)
 		)
 		(stroke
@@ -31765,16 +32195,6 @@
 			(type default)
 		)
 		(uuid "b53e25c3-98a3-49ff-b23e-062c90152057")
-	)
-	(wire
-		(pts
-			(xy 303.53 201.93) (xy 320.04 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53e6a3d-ca8c-4685-beb0-9b1a0750b584")
 	)
 	(bus
 		(pts
@@ -32918,6 +33338,16 @@
 	)
 	(wire
 		(pts
+			(xy 405.13 302.26) (xy 408.94 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b22913-adae-450e-9072-8da9d779b1dd")
+	)
+	(wire
+		(pts
 			(xy 450.85 208.28) (xy 458.47 208.28)
 		)
 		(stroke
@@ -33125,16 +33555,6 @@
 			(type default)
 		)
 		(uuid "c9021d65-db69-48ce-907a-3eae1a37c1a8")
-	)
-	(wire
-		(pts
-			(xy 294.64 207.01) (xy 280.67 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c950f811-9db9-4952-aa2c-b4c9ce0d05fc")
 	)
 	(wire
 		(pts
@@ -33998,6 +34418,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 189.23) (xy 284.48 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f7e8e2-6012-4cb2-b09c-6a826a9834c0")
+	)
+	(wire
+		(pts
 			(xy 83.82 359.41) (xy 83.82 361.95)
 		)
 		(stroke
@@ -34015,6 +34445,16 @@
 			(type default)
 		)
 		(uuid "d84cc68f-ad54-4f14-bb54-7c4da68a76f9")
+	)
+	(wire
+		(pts
+			(xy 398.78 302.26) (xy 400.05 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85e950d-2a73-41e0-ba9f-85c2f015e0a3")
 	)
 	(wire
 		(pts
@@ -34235,6 +34675,16 @@
 			(type default)
 		)
 		(uuid "db70bafb-8f4e-4e14-baf9-35d70117c4f9")
+	)
+	(wire
+		(pts
+			(xy 289.56 181.61) (xy 289.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba39068-96be-4f35-b13e-0fa5ae4aa832")
 	)
 	(wire
 		(pts
@@ -34525,16 +34975,6 @@
 			(type default)
 		)
 		(uuid "e0bdc058-6c49-44db-929f-7133ef39ba30")
-	)
-	(wire
-		(pts
-			(xy 299.72 198.12) (xy 303.53 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0c9d1ff-bc32-4bc5-a011-ca85ba9b900a")
 	)
 	(wire
 		(pts
@@ -34995,6 +35435,16 @@
 			(type default)
 		)
 		(uuid "e87384e4-914d-496a-8a15-c54266088e4b")
+	)
+	(wire
+		(pts
+			(xy 280.67 198.12) (xy 289.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e885a442-3c37-4387-b101-73feb227cf31")
 	)
 	(wire
 		(pts
@@ -36108,6 +36558,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 181.61) (xy 284.48 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87384e6-d713-4fc2-bc8e-ed995b88bbe3")
+	)
+	(wire
+		(pts
 			(xy 328.93 383.54) (xy 332.74 383.54)
 		)
 		(stroke
@@ -36195,6 +36655,16 @@
 			(type default)
 		)
 		(uuid "fa3baa8d-fdf3-4cdb-8208-37b0800192e9")
+	)
+	(wire
+		(pts
+			(xy 816.61 40.64) (xy 828.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4dadec-7ba8-4527-bdf4-f7fa15a201c7")
 	)
 	(wire
 		(pts
@@ -37427,7 +37897,7 @@
 		(uuid "4b058205-fb9d-42df-8013-ed3f1ad0ef36")
 	)
 	(label "G"
-		(at 281.94 198.12 0)
+		(at 280.67 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37937,7 +38407,7 @@
 		(uuid "78dce6c8-1d52-47fa-8e42-b586d87dff2d")
 	)
 	(label "R"
-		(at 281.94 207.01 0)
+		(at 280.67 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38567,7 +39037,7 @@
 		(uuid "a73345a0-c5e6-4203-b276-cf6565964f57")
 	)
 	(label "B"
-		(at 281.94 189.23 0)
+		(at 280.67 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40200,7 +40670,7 @@
 			(uuid "86529717-5643-4b53-8d3c-c8f6b715eee1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U1")
 					(unit 1)
@@ -40355,7 +40825,7 @@
 			(uuid "d772f2c6-ea90-489e-a12c-af4ad25d21ac")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U4")
 					(unit 1)
@@ -40510,7 +40980,7 @@
 			(uuid "16efdac8-e31a-4b22-8b02-9c66a6ad022a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U5")
 					(unit 1)
@@ -40591,7 +41061,7 @@
 			(uuid "01155a6b-fc49-46b0-a415-3d6823f330fe")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R2")
 					(unit 1)
@@ -40672,7 +41142,7 @@
 			(uuid "767f377e-0da9-4cd6-9707-8f41daea25ce")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C3")
 					(unit 1)
@@ -40751,7 +41221,7 @@
 			(uuid "86ea2288-c27d-4bf6-828d-dabfd116d661")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "X1")
 					(unit 1)
@@ -40828,7 +41298,7 @@
 			(uuid "8e6ac0a9-fbbd-4c4c-9cca-86076cee43de")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0103")
 					(unit 1)
@@ -40909,7 +41379,7 @@
 			(uuid "6364b18c-b74b-46aa-9329-f78a23276bdf")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C5")
 					(unit 1)
@@ -40986,7 +41456,7 @@
 			(uuid "90bfb290-f83d-4727-8bdf-df9164c69213")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0172")
 					(unit 1)
@@ -41063,7 +41533,7 @@
 			(uuid "9c2922d3-e650-4aa6-a58c-f951c462b6eb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0102")
 					(unit 1)
@@ -41140,7 +41610,7 @@
 			(uuid "2ba0a778-56e5-432a-af93-84eda4fabdff")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0133")
 					(unit 1)
@@ -41284,7 +41754,7 @@
 			(uuid "b50fe1b5-b43a-4826-abd1-c3c5b571d89c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U7")
 					(unit 1)
@@ -41294,7 +41764,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 297.18 189.23 270)
+		(at 300.99 189.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41304,7 +41774,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d5548c4")
 		(property "Reference" "C8"
-			(at 297.18 186.055 90)
+			(at 300.99 186.055 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41314,7 +41784,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 297.18 192.405 90)
+			(at 300.99 192.405 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41324,7 +41794,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 297.18 189.23 0)
+			(at 300.99 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41335,7 +41805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 189.23 0)
+			(at 300.99 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41346,7 +41816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 189.23 0)
+			(at 300.99 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41363,7 +41833,7 @@
 			(uuid "bea84c3c-863b-4069-9699-a2aa417735c1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C8")
 					(unit 1)
@@ -41373,7 +41843,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 297.18 198.12 270)
+		(at 300.99 198.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41383,7 +41853,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d554ad7")
 		(property "Reference" "C7"
-			(at 297.18 194.945 90)
+			(at 300.99 194.945 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41393,7 +41863,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 297.18 201.295 90)
+			(at 300.99 201.295 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41403,7 +41873,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 297.18 198.12 0)
+			(at 300.99 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41414,7 +41884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 198.12 0)
+			(at 300.99 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41425,7 +41895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 198.12 0)
+			(at 300.99 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41442,7 +41912,7 @@
 			(uuid "523d2ed9-440c-4e90-9b27-473d96d134ea")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C7")
 					(unit 1)
@@ -41452,7 +41922,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 297.18 207.01 270)
+		(at 300.99 207.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41462,7 +41932,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d554b34")
 		(property "Reference" "C6"
-			(at 297.18 203.835 90)
+			(at 300.99 203.835 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41472,7 +41942,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 297.18 210.185 90)
+			(at 300.99 210.185 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41482,7 +41952,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 297.18 207.01 0)
+			(at 300.99 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41493,7 +41963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 207.01 0)
+			(at 300.99 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41504,7 +41974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 207.01 0)
+			(at 300.99 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41521,7 +41991,7 @@
 			(uuid "01f6b4f6-257d-42ef-80d4-06141b86254e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C6")
 					(unit 1)
@@ -41598,7 +42068,7 @@
 			(uuid "f960c482-f600-45f9-9809-05dc02952f7d")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0174")
 					(unit 1)
@@ -41679,7 +42149,7 @@
 			(uuid "3eb17cc3-4a3b-4e06-b12f-030076953770")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C57")
 					(unit 1)
@@ -41756,7 +42226,7 @@
 			(uuid "1cd6ba89-cef4-48ff-bac9-a52a2883cbf1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0175")
 					(unit 1)
@@ -41833,7 +42303,7 @@
 			(uuid "ba1fbc23-8aa3-4e56-be8e-75d09c2cdff1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0167")
 					(unit 1)
@@ -41910,7 +42380,7 @@
 			(uuid "04a6c9a4-81bb-4275-bf71-6b73c8deb6de")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0168")
 					(unit 1)
@@ -41989,7 +42459,7 @@
 			(uuid "7b2ed108-9d00-44bf-8aed-26f193dd0d3b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C64")
 					(unit 1)
@@ -42068,7 +42538,7 @@
 			(uuid "ce81eae4-8421-4f41-aff5-8af31636d076")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C63")
 					(unit 1)
@@ -42145,7 +42615,7 @@
 			(uuid "95e65b4e-59ac-4525-bd2d-82b0b8935bb6")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0169")
 					(unit 1)
@@ -42222,7 +42692,7 @@
 			(uuid "ea5d40c7-77d0-4b63-b3c1-bd0e77bb5040")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0166")
 					(unit 1)
@@ -42301,7 +42771,7 @@
 			(uuid "59237fb6-2548-4095-8b39-aeb395028ba9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R48")
 					(unit 1)
@@ -42380,7 +42850,7 @@
 			(uuid "0feea419-88ce-46f9-827f-e6930e482add")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C23")
 					(unit 1)
@@ -42458,7 +42928,7 @@
 			(uuid "37c0a2cf-cb66-4c73-8dd6-f91750aeed9f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0173")
 					(unit 1)
@@ -42536,7 +43006,7 @@
 			(uuid "10a2c1ed-285f-4c8d-85c8-26849d96cb0b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0141")
 					(unit 1)
@@ -42615,7 +43085,7 @@
 			(uuid "b8a74026-d989-4963-ad2b-6800ec726db0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0145")
 					(unit 1)
@@ -42694,7 +43164,7 @@
 			(uuid "da450f9a-545a-4e6f-ad1c-fab298be4fdb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R25")
 					(unit 1)
@@ -42772,7 +43242,7 @@
 			(uuid "db8becd9-2529-454f-b9db-603b63da71ba")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0140")
 					(unit 1)
@@ -42851,7 +43321,7 @@
 			(uuid "b2eb890e-3fa5-40de-972d-9f7ed3c166ea")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0146")
 					(unit 1)
@@ -42930,7 +43400,7 @@
 			(uuid "1febc46d-2e13-4a9d-97b8-1f42104487df")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0144")
 					(unit 1)
@@ -43009,7 +43479,7 @@
 			(uuid "1b56ff53-1a55-402f-9542-ba3fb4ccab51")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R51")
 					(unit 1)
@@ -43088,7 +43558,7 @@
 			(uuid "9efd0047-f0ba-4425-b2a4-c7a1fb80f151")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C26")
 					(unit 1)
@@ -43195,7 +43665,7 @@
 			(uuid "bf1ed96c-1881-4587-8bab-d42ed7b5e620")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "Q1")
 					(unit 1)
@@ -43302,7 +43772,7 @@
 			(uuid "d8088220-fc80-4452-b022-2e4cbce1f2ad")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "Q2")
 					(unit 1)
@@ -43409,7 +43879,7 @@
 			(uuid "48c80712-861e-4bad-a1a5-1430fb330846")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "Q3")
 					(unit 1)
@@ -43487,7 +43957,7 @@
 			(uuid "9a86785e-b3e6-472e-87b8-0219aa003d34")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0142")
 					(unit 1)
@@ -43573,7 +44043,7 @@
 			(uuid "20348255-0a6e-4da2-aa9e-165b9fa9b336")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "T1")
 					(unit 1)
@@ -43650,7 +44120,7 @@
 			(uuid "518b7abd-fd43-4cbd-a703-e245eee96580")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0125")
 					(unit 1)
@@ -43729,7 +44199,7 @@
 			(uuid "5793b651-ff7e-45d2-a5f5-02c612a1023a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R22")
 					(unit 1)
@@ -43806,7 +44276,7 @@
 			(uuid "829a2cac-57dd-4773-8af3-3067e3e9f9c9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0176")
 					(unit 1)
@@ -43888,7 +44358,7 @@
 			(uuid "93559fed-b50c-492f-ab12-02d0a764a2a8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C30")
 					(unit 1)
@@ -43969,7 +44439,7 @@
 			(uuid "127d6a03-e84b-478e-b9ce-bc97767814ca")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C31")
 					(unit 1)
@@ -44048,7 +44518,7 @@
 			(uuid "ee840bc4-38d4-4fcf-bc15-62d405b7574c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R28")
 					(unit 1)
@@ -44129,7 +44599,7 @@
 			(uuid "fc2c32b4-13ba-4a67-8af1-07f8104a5484")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C59")
 					(unit 1)
@@ -44206,7 +44676,7 @@
 			(uuid "37163f60-9729-43e6-b082-5dead256acfb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0113")
 					(unit 1)
@@ -44283,7 +44753,7 @@
 			(uuid "bd110f22-d11d-4c80-a33a-d4b28788a26b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0112")
 					(unit 1)
@@ -44362,7 +44832,7 @@
 			(uuid "d64aad40-7808-488d-83a1-93968f1d7516")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C53")
 					(unit 1)
@@ -44441,7 +44911,7 @@
 			(uuid "8911d1a8-6357-484c-86bb-643b23ec29b8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R4")
 					(unit 1)
@@ -44523,7 +44993,7 @@
 			(uuid "cdcc9e8e-05ca-43f9-a43f-afbe6c3526b9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C12")
 					(unit 1)
@@ -44605,7 +45075,7 @@
 			(uuid "cd250831-8061-43e0-9bf0-49227c2207ee")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C13")
 					(unit 1)
@@ -44686,7 +45156,7 @@
 			(uuid "d0627670-4b11-44f9-be3f-1be7a65159a0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R23")
 					(unit 1)
@@ -44767,7 +45237,7 @@
 			(uuid "9ba56f02-7113-4055-b72e-389708069c7e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R26")
 					(unit 1)
@@ -44845,7 +45315,7 @@
 			(uuid "a7672bf9-1a55-4a2d-b694-c4dd8753b0b2")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "D2")
 					(unit 1)
@@ -44923,7 +45393,7 @@
 			(uuid "8c6f845c-7695-4763-a730-34534adcd8b2")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "D3")
 					(unit 1)
@@ -45001,7 +45471,7 @@
 			(uuid "2badf171-184d-4b78-9dbf-27fa8b1ae953")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "D5")
 					(unit 1)
@@ -45079,7 +45549,7 @@
 			(uuid "5947f6d5-360a-41f9-a2bf-88e99ddaecd3")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "D4")
 					(unit 1)
@@ -45160,7 +45630,7 @@
 			(uuid "cd09d4e9-f611-46fe-915d-1800daa327f8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C71")
 					(unit 1)
@@ -45238,7 +45708,7 @@
 			(uuid "b6ab8a67-4b18-459b-b867-848d8e4c2fc0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0164")
 					(unit 1)
@@ -45316,7 +45786,7 @@
 			(uuid "be25fad7-373f-4155-b20f-8a8a8c3f44f2")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0163")
 					(unit 1)
@@ -45394,7 +45864,7 @@
 			(uuid "8470046e-0ca6-4b08-995c-ee4518b424a5")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0136")
 					(unit 1)
@@ -45472,7 +45942,7 @@
 			(uuid "dd62bd08-c20b-487b-8613-ac4ddb9490fc")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0137")
 					(unit 1)
@@ -45549,7 +46019,7 @@
 			(uuid "a79aa903-1e5d-4cf0-a7e0-51c6f1c488ac")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0111")
 					(unit 1)
@@ -45630,7 +46100,7 @@
 			(uuid "bcc04162-371e-4327-b9a6-6436a35aa192")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R17")
 					(unit 1)
@@ -45711,7 +46181,7 @@
 			(uuid "6dc608b8-746a-45e5-a191-8d6d5e60216c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R16")
 					(unit 1)
@@ -45792,7 +46262,7 @@
 			(uuid "2a2efe1f-0466-4062-b9c9-295550f96f02")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R15")
 					(unit 1)
@@ -45871,7 +46341,7 @@
 			(uuid "ad8f866e-eaf4-45b5-aabd-52c8468d459e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R9")
 					(unit 1)
@@ -45950,7 +46420,7 @@
 			(uuid "fc2abbf4-d001-4224-a14d-a030fa0cd3a1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R10")
 					(unit 1)
@@ -46029,7 +46499,7 @@
 			(uuid "398e059c-935d-4681-b42a-2799f53cd212")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R11")
 					(unit 1)
@@ -46108,7 +46578,7 @@
 			(uuid "7baa996c-6ad8-4bbc-a1c8-e8b066a38607")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0170")
 					(unit 1)
@@ -46185,7 +46655,7 @@
 			(uuid "e8a7a014-8af9-44f5-956c-b4af6780b90f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0159")
 					(unit 1)
@@ -46264,7 +46734,7 @@
 			(uuid "6901a72e-522d-4556-9fd5-f9ba6ca18519")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R3")
 					(unit 1)
@@ -46343,7 +46813,7 @@
 			(uuid "11b61694-69b3-4365-9b31-d4d01fdb6d20")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C11")
 					(unit 1)
@@ -46421,7 +46891,7 @@
 			(uuid "e29a2953-36ed-4c3a-b93d-ab4bcf867c6e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0128")
 					(unit 1)
@@ -46499,7 +46969,7 @@
 			(uuid "8937805c-758d-4663-bcec-49bbefe34cb6")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0129")
 					(unit 1)
@@ -46578,7 +47048,7 @@
 			(uuid "591b8302-0db2-4b2b-a9ea-f371eca58a40")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R30")
 					(unit 1)
@@ -46657,7 +47127,7 @@
 			(uuid "3fb3d79d-9022-4c14-a1fe-80b8e762a8b9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C10")
 					(unit 1)
@@ -46736,7 +47206,7 @@
 			(uuid "2367c34a-aeeb-4c69-ac73-21fcf4fa255f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R1")
 					(unit 1)
@@ -46815,7 +47285,7 @@
 			(uuid "ca3fcfc8-046d-4a46-b619-2e5d50fc8978")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C1")
 					(unit 1)
@@ -46893,7 +47363,7 @@
 			(uuid "d5516212-8807-4645-91d7-38b4cca57eb5")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0131")
 					(unit 1)
@@ -46971,7 +47441,7 @@
 			(uuid "21730819-0212-4837-b504-d7638edf2acb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0132")
 					(unit 1)
@@ -47048,7 +47518,7 @@
 			(uuid "b90e15a2-1084-4e65-a903-c7d844ea7649")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0126")
 					(unit 1)
@@ -47127,7 +47597,7 @@
 			(uuid "78f83614-b958-4aa6-9093-ed3250a1743a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R12")
 					(unit 1)
@@ -47206,7 +47676,7 @@
 			(uuid "443be13a-0d32-42e4-be7d-ce4af9aab187")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C70")
 					(unit 1)
@@ -47285,7 +47755,7 @@
 			(uuid "6be98c8a-c73d-472e-9309-bfc76abe4dfc")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C60")
 					(unit 1)
@@ -47366,7 +47836,7 @@
 			(uuid "7722d731-5631-4439-8098-bb1357161334")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C51")
 					(unit 1)
@@ -47447,7 +47917,7 @@
 			(uuid "63288e30-4d59-40e0-8e53-7bfac9486edb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C52")
 					(unit 1)
@@ -47524,7 +47994,7 @@
 			(uuid "4b8778fc-a380-4abd-8fd0-15fa3045d284")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0106")
 					(unit 1)
@@ -47601,7 +48071,7 @@
 			(uuid "6aed24c9-8795-4596-bbf5-ee106a51ff6b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0105")
 					(unit 1)
@@ -47678,7 +48148,7 @@
 			(uuid "281cb8b9-4431-45dd-a598-0334fe2dacbe")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0149")
 					(unit 1)
@@ -47755,7 +48225,7 @@
 			(uuid "2b979471-e361-427e-bbbf-9a96545e3283")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0147")
 					(unit 1)
@@ -47837,7 +48307,7 @@
 			(uuid "eefe61cc-0ebf-4e8b-be9e-820a40ded98a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R21")
 					(unit 1)
@@ -47918,7 +48388,7 @@
 			(uuid "153cbcc1-0e9e-4903-a209-e0e7700eb0e4")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C21")
 					(unit 1)
@@ -47995,7 +48465,7 @@
 			(uuid "89bd9ab9-cf08-428b-b9ae-5bc4fbbf719a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0104")
 					(unit 1)
@@ -48077,7 +48547,7 @@
 			(uuid "274452fd-609c-4ae2-b257-38c163c28c23")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA1")
 					(unit 1)
@@ -48160,7 +48630,7 @@
 			(uuid "e19623d1-d898-4f2f-80a0-ad9df5031732")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA6")
 					(unit 1)
@@ -48189,7 +48659,7 @@
 				)
 			)
 		)
-		(property "Value" "FRONT_PANEL_CONNECTOR"
+		(property "Value" "JST 11FE-BT-VK-N"
 			(at 140.97 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48265,7 +48735,7 @@
 			(uuid "d287cba0-fa26-4d5c-98c2-cd6e91846e23")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "P2")
 					(unit 1)
@@ -48344,7 +48814,7 @@
 			(uuid "d7ac65f5-122b-4ed1-90c2-5184fc2d8e0f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C67")
 					(unit 1)
@@ -48421,7 +48891,7 @@
 			(uuid "86ed7f77-38d8-405a-9fe0-dbc4315ecd3c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0154")
 					(unit 1)
@@ -48498,7 +48968,7 @@
 			(uuid "9b9ff349-a889-423b-bcc7-2ad45a7809f1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0118")
 					(unit 1)
@@ -48575,7 +49045,7 @@
 			(uuid "e0f95842-c28f-4259-9583-9ff1c140c867")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0117")
 					(unit 1)
@@ -48656,7 +49126,7 @@
 			(uuid "aa6be207-27a6-4da8-b5b2-529915b18039")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C42")
 					(unit 1)
@@ -48733,7 +49203,7 @@
 			(uuid "fc7758c6-9e2f-4e4a-a133-417d8cb39d10")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0121")
 					(unit 1)
@@ -48812,7 +49282,7 @@
 			(uuid "fb50ac02-cd3a-47ed-86df-07c83d7578a8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "L4")
 					(unit 1)
@@ -48889,7 +49359,7 @@
 			(uuid "add0d168-44eb-4512-bfc9-213d70e999ff")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0122")
 					(unit 1)
@@ -48968,7 +49438,7 @@
 			(uuid "b63f8d05-30af-4dcd-87b4-39195dea8901")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "L3")
 					(unit 1)
@@ -49049,7 +49519,7 @@
 			(uuid "d943a5fe-f6bf-4cb9-a54d-7c21d2702fdf")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C40")
 					(unit 1)
@@ -49130,7 +49600,7 @@
 			(uuid "0c479321-2817-4f26-b4cc-c82d3fb83a63")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C72")
 					(unit 1)
@@ -49211,7 +49681,7 @@
 			(uuid "9d1fab35-a9e9-4891-bde4-5804f1666ae4")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C38")
 					(unit 1)
@@ -49292,7 +49762,7 @@
 			(uuid "ae4636a4-aa86-4915-835b-e3b5b62bdd68")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C36")
 					(unit 1)
@@ -49373,7 +49843,7 @@
 			(uuid "ce58006f-edfb-40fe-bad1-35d8142e58f8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C45")
 					(unit 1)
@@ -49454,7 +49924,7 @@
 			(uuid "77d64e15-7c4c-48d3-b992-cc21657545b3")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C32")
 					(unit 1)
@@ -49533,7 +50003,7 @@
 			(uuid "a213c45b-1459-4aaa-aade-300efd16b6b8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "F1")
 					(unit 1)
@@ -49612,7 +50082,7 @@
 			(uuid "3213617b-4184-48f6-87c7-f5e997c33752")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R47")
 					(unit 1)
@@ -49691,7 +50161,7 @@
 			(uuid "4f6e5ffc-795e-4998-9f5d-a0d003c25dba")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R44")
 					(unit 1)
@@ -49770,7 +50240,7 @@
 			(uuid "3fb77795-a691-431c-835b-2c49772da04c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R42")
 					(unit 1)
@@ -49849,7 +50319,7 @@
 			(uuid "df963a53-31b9-454e-915e-51435778eae4")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R40")
 					(unit 1)
@@ -49930,7 +50400,7 @@
 			(uuid "58702081-1380-49f8-9f0a-b2780cd05c1b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C47")
 					(unit 1)
@@ -50007,7 +50477,7 @@
 			(uuid "a3b5e6e7-1e59-439e-882e-eefd1df4af2c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0123")
 					(unit 1)
@@ -50089,7 +50559,7 @@
 			(uuid "71d467e0-cd72-41ba-9d70-7c07e8401973")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "P3")
 					(unit 1)
@@ -50170,7 +50640,7 @@
 			(uuid "06b81d65-912a-4363-bab1-f44e8c25a41b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C33")
 					(unit 1)
@@ -50251,7 +50721,7 @@
 			(uuid "c007b743-ccd0-424d-a325-63af77f4032f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C34")
 					(unit 1)
@@ -50332,7 +50802,7 @@
 			(uuid "093c24b7-9240-4eed-afcb-92ce93bcaba4")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R38")
 					(unit 1)
@@ -50413,7 +50883,7 @@
 			(uuid "8f2a7677-04bd-4784-abf3-028c4f5ddc62")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R35")
 					(unit 1)
@@ -50494,7 +50964,7 @@
 			(uuid "98e3b107-f9b7-4313-968c-9976cff550aa")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R34")
 					(unit 1)
@@ -50571,7 +51041,7 @@
 			(uuid "640befb2-855e-4fff-8c3f-42f2fc1acdaf")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0119")
 					(unit 1)
@@ -50652,7 +51122,7 @@
 			(uuid "ed4c6b20-1669-4acb-b84f-b87fa264b609")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C49")
 					(unit 1)
@@ -50733,7 +51203,7 @@
 			(uuid "c0529c31-0efe-433a-adef-85566fc7048e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C43")
 					(unit 1)
@@ -50812,7 +51282,7 @@
 			(uuid "804a51bb-0bc5-4826-b3e0-30cba310f38f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "L1")
 					(unit 1)
@@ -50893,7 +51363,7 @@
 			(uuid "697fee6d-9de3-4d28-a1eb-7de68f59a0c5")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R14")
 					(unit 1)
@@ -50970,7 +51440,7 @@
 			(uuid "852cc225-a075-4641-8153-0d39a5f6f313")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0171")
 					(unit 1)
@@ -51051,7 +51521,7 @@
 			(uuid "3af6fab3-dada-4f91-86f8-d8cb6ff2fae0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C41")
 					(unit 1)
@@ -51132,7 +51602,7 @@
 			(uuid "07ec901a-6b99-43bd-9b99-720051ade55e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C39")
 					(unit 1)
@@ -51213,7 +51683,7 @@
 			(uuid "5736c06d-a3cf-46c7-9f51-683af80d0236")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C35")
 					(unit 1)
@@ -51294,7 +51764,7 @@
 			(uuid "0dcf1097-4c3e-46d5-aa96-f0794d94ae25")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C37")
 					(unit 1)
@@ -51375,7 +51845,7 @@
 			(uuid "c9a70e2f-82db-48fc-bdb8-c3e754a138b7")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C61")
 					(unit 1)
@@ -51452,7 +51922,7 @@
 			(uuid "ddb058ed-a205-486f-8a1b-ee978721274f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0114")
 					(unit 1)
@@ -51533,7 +52003,7 @@
 			(uuid "aa9f8cf4-b67a-458a-a74d-f6d57eca0253")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C68")
 					(unit 1)
@@ -51610,7 +52080,7 @@
 			(uuid "5277d5ea-2911-4504-9710-3d306b338a47")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0120")
 					(unit 1)
@@ -51689,7 +52159,7 @@
 			(uuid "c76b9a6f-d3a1-41ca-ada7-71d39e3fabbf")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "L2")
 					(unit 1)
@@ -51768,7 +52238,7 @@
 			(uuid "b7c24820-414f-4f89-98b9-67c92d2c9edc")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R43")
 					(unit 1)
@@ -51847,7 +52317,7 @@
 			(uuid "4e9476f9-d791-4cd0-bb36-6e16851337c5")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R41")
 					(unit 1)
@@ -51926,7 +52396,7 @@
 			(uuid "159b248a-972e-498e-b37d-2a78473a0d94")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R39")
 					(unit 1)
@@ -52063,7 +52533,7 @@
 			(uuid "8952f113-29ce-4a21-84b9-20eb4c067fd9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "VA1")
 					(unit 1)
@@ -52145,7 +52615,7 @@
 			(uuid "3943499b-3fe6-4eca-97f0-be88034e7efd")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA2")
 					(unit 1)
@@ -52227,7 +52697,7 @@
 			(uuid "decf56e9-f2f4-45de-9770-3def9ebc9bee")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA3")
 					(unit 1)
@@ -52309,7 +52779,7 @@
 			(uuid "86cca78d-9d04-4620-b550-bde223fef85e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA4")
 					(unit 1)
@@ -52391,7 +52861,7 @@
 			(uuid "3a7aae29-db52-4e51-8dcd-d7bc548030aa")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA5")
 					(unit 1)
@@ -52468,7 +52938,7 @@
 			(uuid "f31df313-39b5-4d0a-9319-ab26e860b469")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0115")
 					(unit 1)
@@ -52549,7 +53019,7 @@
 			(uuid "88c6435d-8fd5-445d-8922-fed8196dd4d3")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C50")
 					(unit 1)
@@ -52630,7 +53100,7 @@
 			(uuid "512f5ac6-d104-4c81-a5d5-4502e47c10af")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C48")
 					(unit 1)
@@ -52711,7 +53181,7 @@
 			(uuid "6aa5da34-2c67-46c9-9309-9fd30f14e81d")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C46")
 					(unit 1)
@@ -52792,7 +53262,7 @@
 			(uuid "20091d31-8959-48d0-935d-1baf189b3a60")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C44")
 					(unit 1)
@@ -52871,7 +53341,7 @@
 			(uuid "8c404bb7-3fe9-4b32-86fd-33d1370ec2d3")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C14")
 					(unit 1)
@@ -52948,7 +53418,7 @@
 			(uuid "5430cf72-23a5-4ea9-b4a0-767a5764cc0c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0124")
 					(unit 1)
@@ -53027,7 +53497,7 @@
 			(uuid "b7bd5a57-b629-4985-b493-31c0847c2b4e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C62")
 					(unit 1)
@@ -53104,7 +53574,7 @@
 			(uuid "9e9452cc-1f20-46e2-83c7-70705041089e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0107")
 					(unit 1)
@@ -53187,7 +53657,7 @@
 			(uuid "8f36dece-0205-4411-b91e-ad0177def27f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA15")
 					(unit 1)
@@ -53270,7 +53740,7 @@
 			(uuid "61c1e501-a735-4c33-bfde-1a6587491161")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA14")
 					(unit 1)
@@ -53347,7 +53817,7 @@
 			(uuid "023e0220-ee6c-4cbe-ad3c-5b0541132a23")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0101")
 					(unit 1)
@@ -53430,7 +53900,7 @@
 			(uuid "32188f07-f09a-4312-a3e1-90e39f07e05c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA7")
 					(unit 1)
@@ -53513,7 +53983,7 @@
 			(uuid "55988634-a353-44e5-9837-def581f6cf78")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA8")
 					(unit 1)
@@ -53596,7 +54066,7 @@
 			(uuid "08579795-c141-4f48-b549-eb0e4c55961b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA9")
 					(unit 1)
@@ -53679,7 +54149,7 @@
 			(uuid "3dfe068c-30ab-48bc-b776-0479a8c1c845")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA10")
 					(unit 1)
@@ -53761,7 +54231,7 @@
 			(uuid "bb393433-fa75-4600-86c1-730ed32e37b8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA13")
 					(unit 1)
@@ -53842,7 +54312,7 @@
 			(uuid "1a297cbf-e7de-4673-8ffc-bc86824a4078")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C9")
 					(unit 1)
@@ -53919,7 +54389,7 @@
 			(uuid "fa24da9d-2c03-442b-a05c-23a4a6958479")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0162")
 					(unit 1)
@@ -53998,7 +54468,7 @@
 			(uuid "1f68a096-487b-43bd-bd95-11f392efe484")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C54")
 					(unit 1)
@@ -54077,7 +54547,7 @@
 			(uuid "ff1674bf-b7f1-4265-9b97-996789565376")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R20")
 					(unit 1)
@@ -54154,7 +54624,7 @@
 			(uuid "cd0f2e04-239d-403f-957f-276a04335552")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0116")
 					(unit 1)
@@ -54235,7 +54705,7 @@
 			(uuid "ce795611-ba20-47f0-a62e-3a00a21917a1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R37")
 					(unit 1)
@@ -54316,7 +54786,7 @@
 			(uuid "d77effe0-8c78-4557-ac05-da9bc15e33f3")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R36")
 					(unit 1)
@@ -54397,7 +54867,7 @@
 			(uuid "a5ebf50d-f2bd-4ff5-8e5e-cbc05a0599d4")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R33")
 					(unit 1)
@@ -54474,7 +54944,7 @@
 			(uuid "12d9d6f6-db5d-4a82-a3de-178fd295872c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0127")
 					(unit 1)
@@ -54555,7 +55025,7 @@
 			(uuid "215e7859-742a-4469-aa8b-e1cfa5729c28")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C29")
 					(unit 1)
@@ -54632,7 +55102,7 @@
 			(uuid "1156cc9d-4267-4220-a4ad-e4eafd3d9d2a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0139")
 					(unit 1)
@@ -54711,7 +55181,7 @@
 			(uuid "4963117d-11f4-4605-b521-2ec119ea9e89")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R19")
 					(unit 1)
@@ -54790,7 +55260,7 @@
 			(uuid "73035a74-6a44-48b6-8c5b-962e39f5f5a4")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C19")
 					(unit 1)
@@ -54873,7 +55343,7 @@
 			(uuid "a8635ede-fc84-423f-8f6d-dadce985c353")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA11")
 					(unit 1)
@@ -54955,7 +55425,7 @@
 			(uuid "93e38919-aa37-4de3-a075-2611d1932ea6")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "DA12")
 					(unit 1)
@@ -55036,7 +55506,7 @@
 			(uuid "60ac2465-a59c-47ba-8a90-11686537976a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C65")
 					(unit 1)
@@ -55113,7 +55583,7 @@
 			(uuid "db964e8b-898a-4766-8d87-22ddf25ccac1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0161")
 					(unit 1)
@@ -55485,7 +55955,7 @@
 			(uuid "dcbf1320-8e74-4e2b-90ef-fd244570383c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U2")
 					(unit 1)
@@ -55566,7 +56036,7 @@
 			(uuid "2b60f305-0d96-47cc-a0ca-54de144a676c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R13")
 					(unit 1)
@@ -55647,7 +56117,7 @@
 			(uuid "ee238e38-953d-4743-b1ea-a6fb4324a0e5")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C69")
 					(unit 1)
@@ -55724,7 +56194,7 @@
 			(uuid "6d27daba-d78d-4d15-91d0-d087db72ee14")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0148")
 					(unit 1)
@@ -55801,7 +56271,7 @@
 			(uuid "4047af01-9fae-4e65-a2ba-c8faeb838822")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0135")
 					(unit 1)
@@ -55878,7 +56348,7 @@
 			(uuid "495a4779-5dbb-47da-b935-1311d5fd81c2")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0134")
 					(unit 1)
@@ -55959,7 +56429,7 @@
 			(uuid "0171d47d-3b4c-4ff6-aa2a-50de686214d0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R32")
 					(unit 1)
@@ -56036,7 +56506,7 @@
 			(uuid "7fd9eb44-5ac3-4eec-ad25-fcfe759ac7ff")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0165")
 					(unit 1)
@@ -56113,7 +56583,7 @@
 			(uuid "142c4613-f3c2-4016-8480-88db3fa2f151")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0143")
 					(unit 1)
@@ -56194,7 +56664,7 @@
 			(uuid "4a364de5-dd93-4814-8f99-19a7f30484da")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C66")
 					(unit 1)
@@ -56271,7 +56741,7 @@
 			(uuid "f9854e9a-3e1a-424c-a4c0-c6015b392f38")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0150")
 					(unit 1)
@@ -56353,7 +56823,7 @@
 			(uuid "ea13736e-96b4-4be3-a8a2-5265a3f2d4e0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "X2")
 					(unit 1)
@@ -56434,7 +56904,7 @@
 			(uuid "b76048dc-eb07-4239-b6a5-478dc971f133")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C56")
 					(unit 1)
@@ -56513,7 +56983,7 @@
 			(uuid "a90e1e2e-5867-402e-8d6d-9306b5e019b2")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R18")
 					(unit 1)
@@ -56592,7 +57062,7 @@
 			(uuid "dcf42b59-a70c-4e5d-bdb4-204bbab402e9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C18")
 					(unit 1)
@@ -56671,7 +57141,7 @@
 			(uuid "e8ce8f83-29a2-455c-b505-07cf5ee7d8b5")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R29")
 					(unit 1)
@@ -56748,7 +57218,7 @@
 			(uuid "75b4e76f-765f-40b9-a277-0434a5edd0b1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0130")
 					(unit 1)
@@ -56825,7 +57295,7 @@
 			(uuid "78dac65a-300a-4983-99fc-ea74424411f3")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0152")
 					(unit 1)
@@ -56922,7 +57392,7 @@
 			(uuid "aad6ef3b-0e11-4b3b-bd74-6e8c6284801b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U6")
 					(unit 1)
@@ -57037,7 +57507,7 @@
 			(uuid "48e947c5-0647-42f9-bfd2-03fac8ce2b15")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U10")
 					(unit 1)
@@ -57123,7 +57593,7 @@
 			(uuid "92960e84-dc4f-4a31-9dea-7c01debe9981")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "RF1")
 					(unit 1)
@@ -57200,7 +57670,7 @@
 			(uuid "8db12cd6-09bd-4551-aa33-668dd889d2b8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0160")
 					(unit 1)
@@ -57279,7 +57749,7 @@
 			(uuid "76572abd-2abb-4cb6-89ed-b0eba61aaa5b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R27")
 					(unit 1)
@@ -57358,7 +57828,7 @@
 			(uuid "e9b51dcf-e2d7-4d95-8005-19a2346135d9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R24")
 					(unit 1)
@@ -57435,7 +57905,7 @@
 			(uuid "5eecec67-7868-4f50-ad82-add9661644eb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0138")
 					(unit 1)
@@ -57514,7 +57984,7 @@
 			(uuid "6d45fd8d-fe8b-43af-852d-7e8c15e10c38")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C15")
 					(unit 1)
@@ -57591,7 +58061,7 @@
 			(uuid "2c0fd904-d355-4d30-ac1f-917183d7db86")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0153")
 					(unit 1)
@@ -57668,7 +58138,7 @@
 			(uuid "4aafa406-d63e-400e-ae1d-dcee7c2237a2")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0155")
 					(unit 1)
@@ -57749,7 +58219,7 @@
 			(uuid "731bf559-d10b-4877-83ed-12e0aa8aeb79")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C58")
 					(unit 1)
@@ -57830,7 +58300,7 @@
 			(uuid "c014943d-2550-492f-a87c-d1b00b63651e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C27")
 					(unit 1)
@@ -57911,7 +58381,7 @@
 			(uuid "7b309ea8-c55e-4d5b-80bf-79cd2c055e9d")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C24")
 					(unit 1)
@@ -57992,7 +58462,7 @@
 			(uuid "2754b22e-b662-470f-9694-298a9eb1864b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C22")
 					(unit 1)
@@ -58071,7 +58541,7 @@
 			(uuid "af1643e5-e6ed-4178-b5b6-fc7afc93e273")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R52")
 					(unit 1)
@@ -58150,7 +58620,7 @@
 			(uuid "7f835b0b-a974-43d0-a993-7358ace4ed8d")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R49")
 					(unit 1)
@@ -58227,7 +58697,7 @@
 			(uuid "4e4f8ed4-2817-4abf-9fdd-ddb5a2a7ea04")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0110")
 					(unit 1)
@@ -58308,7 +58778,7 @@
 			(uuid "8b3c9bae-9fa4-4d02-a056-48f3915e770d")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C28")
 					(unit 1)
@@ -58389,7 +58859,7 @@
 			(uuid "cf547d55-8349-46b0-8c5a-65d477dc61a1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C4")
 					(unit 1)
@@ -58468,7 +58938,7 @@
 			(uuid "e36c4c55-1698-45ff-a544-ae04ba4e378c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R53")
 					(unit 1)
@@ -58545,7 +59015,7 @@
 			(uuid "0bcc168c-d189-4290-b07c-19f264adc972")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0108")
 					(unit 1)
@@ -58622,7 +59092,7 @@
 			(uuid "63cabd9e-806d-4780-bdb2-c513251ac870")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0157")
 					(unit 1)
@@ -58701,7 +59171,7 @@
 			(uuid "4262af26-bbba-4ec5-92ac-fad4a75ffe13")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "R50")
 					(unit 1)
@@ -58778,7 +59248,7 @@
 			(uuid "a779808e-6117-47ed-81dd-392ecbb63a80")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0109")
 					(unit 1)
@@ -58856,7 +59326,7 @@
 			(uuid "0d513393-4bec-4cd5-b214-f28edc9614d9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0151")
 					(unit 1)
@@ -58935,7 +59405,7 @@
 			(uuid "17424476-73ba-4752-87c5-fbbe311ed112")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0158")
 					(unit 1)
@@ -59012,7 +59482,7 @@
 			(uuid "b319bdc3-2d5b-4a47-a130-3aa953f8ba61")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0156")
 					(unit 1)
@@ -59093,7 +59563,7 @@
 			(uuid "82a667f4-77cb-44db-b1fd-a9352d9efab9")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C25")
 					(unit 1)
@@ -59174,7 +59644,7 @@
 			(uuid "4be54121-aa77-4abc-a553-ad797744f56d")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C16")
 					(unit 1)
@@ -59255,7 +59725,7 @@
 			(uuid "1bd92758-1f92-4597-92a3-8c364b6b3ee8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C17")
 					(unit 1)
@@ -59340,7 +59810,7 @@
 			(uuid "563261e8-e5a6-48b4-b447-941aea6a1bed")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U9")
 					(unit 1)
@@ -59419,7 +59889,7 @@
 			(uuid "fb0982a7-b895-48b8-aa39-b147cd7456dd")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP35")
 					(unit 1)
@@ -59502,7 +59972,7 @@
 			(uuid "d1e776bf-57a2-4372-9374-44c7b88fbd7e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "J1")
 					(unit 1)
@@ -59581,7 +60051,7 @@
 			(uuid "4c4153f6-3ac7-4e7b-92de-a4ba33baefa6")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP23")
 					(unit 1)
@@ -59590,8 +60060,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 96.52 195.58 0)
+		(lib_id "Device:C_Polarized")
+		(at 96.52 196.85 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -59601,8 +60071,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "059cc9a0-7c0a-42c4-9873-e886589c9104")
-		(property "Reference" "C20"
-			(at 94.1832 194.4116 0)
+		(property "Reference" "TC1"
+			(at 94.1832 195.6816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59613,7 +60083,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 94.1832 196.723 0)
+			(at 94.1832 197.993 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59623,8 +60093,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 96.52 195.58 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+			(at 95.5548 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59635,7 +60105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 195.58 0)
+			(at 96.52 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59645,8 +60115,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 195.58 0)
+		(property "Description" "Polarized capacitor"
+			(at 96.52 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59663,9 +60133,9 @@
 			(uuid "eb66cffd-daa8-447a-8305-e8855b04eaee")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "C20")
+					(reference "TC1")
 					(unit 1)
 				)
 			)
@@ -59742,7 +60212,7 @@
 			(uuid "9f24a60a-aafe-4d78-8c3a-e9bc6429e033")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP33")
 					(unit 1)
@@ -59821,7 +60291,7 @@
 			(uuid "c8ba5b66-8bb7-475c-a093-e60e613ae174")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#FLG02")
 					(unit 1)
@@ -59902,7 +60372,7 @@
 			(uuid "136419de-3ea8-423e-b47f-7ec159005339")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C74")
 					(unit 1)
@@ -60180,7 +60650,7 @@
 			(uuid "cd15da3d-719a-48a1-9021-e0c5e224dbfe")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "P1")
 					(unit 1)
@@ -60308,7 +60778,7 @@
 			(uuid "2bf9ff03-9972-4ca9-b5ac-5ec936882b82")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U8")
 					(unit 1)
@@ -60387,7 +60857,7 @@
 			(uuid "32e15c16-4659-4f76-9639-433fb525dbd3")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP46")
 					(unit 1)
@@ -60466,7 +60936,7 @@
 			(uuid "bebdfb67-4c2d-40f5-b641-b3ad6a17b90d")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP19")
 					(unit 1)
@@ -60545,7 +61015,7 @@
 			(uuid "e646103c-1cd3-4b32-8906-f0689e79e599")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP14")
 					(unit 1)
@@ -60621,7 +61091,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H15")
 					(unit 1)
@@ -60700,7 +61170,7 @@
 			(uuid "2d9f4a26-12c6-4436-81ba-f995e4674565")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP3")
 					(unit 1)
@@ -60776,7 +61246,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H1")
 					(unit 1)
@@ -60855,7 +61325,7 @@
 			(uuid "cd342cf6-abc1-4f64-a89e-a2408a05cbfb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP37")
 					(unit 1)
@@ -60934,7 +61404,7 @@
 			(uuid "aed8813d-5f98-4b2d-8e02-d22f6d99d8ab")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP30")
 					(unit 1)
@@ -61013,7 +61483,7 @@
 			(uuid "a37bba4f-386e-4335-bb56-f6aa8d668295")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP18")
 					(unit 1)
@@ -61092,7 +61562,7 @@
 			(uuid "99de4850-106e-4a57-98a4-ad82036b0e95")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP10")
 					(unit 1)
@@ -61171,7 +61641,7 @@
 			(uuid "9fd9cb27-a52d-4a3c-ae02-50214c150b73")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP22")
 					(unit 1)
@@ -61250,85 +61720,9 @@
 			(uuid "8e3e9b78-de6c-40ec-8886-c01cb318b072")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 812.8 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "388fc316-49e0-4c00-918f-efa9c52e8d4c")
-		(property "Reference" "H9"
-			(at 815.34 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 815.34 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm"
-			(at 812.8 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 812.8 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 812.8 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "nonSNES"
-				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -61414,7 +61808,7 @@
 			(uuid "1a7e17eb-809a-4d29-87c3-6db774876989")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "SW1")
 					(unit 1)
@@ -61493,7 +61887,7 @@
 			(uuid "aa4ee0b1-fc03-4165-bb92-8f6dadfad8a1")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP11")
 					(unit 1)
@@ -61572,9 +61966,86 @@
 			(uuid "18d8cddd-55ac-4bdc-b1a7-7ff3c8711340")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 828.04 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e4987f5-40ce-44b7-b997-913c619c430d")
+		(property "Reference" "#PWR0181"
+			(at 834.39 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 825.5 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 828.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 828.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 828.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a257e21-6dfa-441d-8266-bb4fc13d4ac7")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -61651,7 +62122,7 @@
 			(uuid "9fecedba-5beb-4527-891c-c4ce22b7c255")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP42")
 					(unit 1)
@@ -61728,9 +62199,168 @@
 			(uuid "4f0d330a-0c9f-46ac-89ba-fb9a94317eff")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 805.18 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47258dad-a475-42fa-bb72-6a38d18e51f6")
+		(property "Reference" "#PWR0180"
+			(at 811.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 802.64 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 805.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 805.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 805.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cf39e08-52f5-4a80-930b-3ca5b0d3a8ac")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 402.59 302.26 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "490e0d99-606c-4db4-9e5a-0a4e2eaeb1d8")
+		(property "Reference" "C55"
+			(at 403.86 299.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "?"
+			(at 403.225 304.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 402.59 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 402.59 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 402.59 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "944f9afe-cbb1-4c91-805b-235b8ae8d315")
+		)
+		(pin "2"
+			(uuid "80d488b2-b8f4-4dc1-b83c-8dd5673d296e")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -61807,7 +62437,7 @@
 			(uuid "7f760533-206d-4bac-b8df-bb5c261ebb7a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP5")
 					(unit 1)
@@ -61883,7 +62513,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H7")
 					(unit 1)
@@ -61893,7 +62523,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 264.16 0)
+		(at 320.04 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -61903,7 +62533,7 @@
 		(dnp no)
 		(uuid "4f860499-b65d-4233-991f-4c7e0cd009d1")
 		(property "Reference" "#PWR03"
-			(at 320.04 270.51 0)
+			(at 320.04 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61914,7 +62544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.167 268.5542 0)
+			(at 320.167 271.0942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61924,7 +62554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 264.16 0)
+			(at 320.04 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61935,7 +62565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 264.16 0)
+			(at 320.04 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61946,7 +62576,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.04 264.16 0)
+			(at 320.04 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61960,7 +62590,7 @@
 			(uuid "d02bb994-7fa1-4e63-a36a-959d989793d7")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR03")
 					(unit 1)
@@ -62039,7 +62669,7 @@
 			(uuid "02ff5bea-2e92-4811-a707-395000e1a15a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#FLG01")
 					(unit 1)
@@ -62118,7 +62748,7 @@
 			(uuid "de7158f0-e6fc-4365-958d-64fb20b50b63")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP34")
 					(unit 1)
@@ -62197,7 +62827,7 @@
 			(uuid "9ca62f41-15bd-4019-8cdb-055266565163")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP45")
 					(unit 1)
@@ -62276,7 +62906,7 @@
 			(uuid "5df8ec34-7924-4c7f-a4b6-5389fe68467b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP39")
 					(unit 1)
@@ -62355,7 +62985,7 @@
 			(uuid "b4f6899b-5fb5-485e-9c22-b5fe8d4f2588")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP17")
 					(unit 1)
@@ -62431,7 +63061,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H2")
 					(unit 1)
@@ -62510,7 +63140,7 @@
 			(uuid "504a230f-f63a-448c-999e-6cd8ef359921")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP31")
 					(unit 1)
@@ -62668,7 +63298,7 @@
 			(uuid "3c354500-95eb-46a1-b96a-9e9745a7c21e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "P5")
 					(unit 1)
@@ -62678,7 +63308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 198.12 0)
+		(at 96.52 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -62688,7 +63318,7 @@
 		(dnp no)
 		(uuid "6066ded4-a4ea-4e92-88c5-53c9a2a8e951")
 		(property "Reference" "#PWR02"
-			(at 96.52 204.47 0)
+			(at 96.52 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62699,7 +63329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.647 202.5142 0)
+			(at 96.647 205.0542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62709,7 +63339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 198.12 0)
+			(at 96.52 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62720,7 +63350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 198.12 0)
+			(at 96.52 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62731,7 +63361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 198.12 0)
+			(at 96.52 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62745,7 +63375,7 @@
 			(uuid "c8c30e3c-3955-4205-8ca6-68a05258edae")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR02")
 					(unit 1)
@@ -62824,7 +63454,7 @@
 			(uuid "337ad450-6bbe-4d80-ab66-81bbdf87adca")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP25")
 					(unit 1)
@@ -62903,7 +63533,7 @@
 			(uuid "38c9f816-99fc-43ab-ab11-83b1d002daf0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP8")
 					(unit 1)
@@ -62979,7 +63609,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H5")
 					(unit 1)
@@ -63058,7 +63688,7 @@
 			(uuid "ffe637d0-5577-46ac-b46c-7fd14528053f")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP7")
 					(unit 1)
@@ -63134,7 +63764,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "FID1")
 					(unit 1)
@@ -63213,7 +63843,7 @@
 			(uuid "035f9e04-7b00-4fe1-84fd-2954c9e8247d")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP41")
 					(unit 1)
@@ -63291,7 +63921,7 @@
 			(uuid "9339bdf1-fdcb-4664-9937-cd26b1ebf5d7")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR08")
 					(unit 1)
@@ -63370,7 +64000,7 @@
 			(uuid "dd579f46-c6fa-4c51-aa55-29a1db720627")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP29")
 					(unit 1)
@@ -63449,7 +64079,7 @@
 			(uuid "c91a4b73-994a-40a9-b403-dc0c0402a3ad")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP36")
 					(unit 1)
@@ -63525,7 +64155,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H12")
 					(unit 1)
@@ -63604,7 +64234,7 @@
 			(uuid "f42eb913-96cd-4b05-bf66-0b7ab675250a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP43")
 					(unit 1)
@@ -63683,7 +64313,7 @@
 			(uuid "c2d824f7-befb-4b47-b696-724f399208c3")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP44")
 					(unit 1)
@@ -63759,7 +64389,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H6")
 					(unit 1)
@@ -63836,7 +64466,7 @@
 			(uuid "2cf51446-eb0b-4c5a-8bed-89c329fd2c1b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR04")
 					(unit 1)
@@ -63915,7 +64545,7 @@
 			(uuid "4693c2ec-653c-4c70-aca5-35efa9c94747")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP9")
 					(unit 1)
@@ -63994,7 +64624,7 @@
 			(uuid "0d9ccab3-7b6a-4ccb-8806-47b622a52093")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP15")
 					(unit 1)
@@ -64073,7 +64703,7 @@
 			(uuid "da32cd1e-b47e-4998-8c90-d68ef9e47edb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP40")
 					(unit 1)
@@ -64092,7 +64722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e44d6da-becc-4a1a-8380-ff1a93e47bac")
-		(property "Reference" "C77"
+		(property "Reference" "C73"
 			(at 290.195 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64152,9 +64782,86 @@
 			(uuid "b9205e32-d13a-4f72-a3d4-d9c1c16cfd5e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "C77")
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 828.04 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94036a2a-d530-4470-a8b5-ffeffe622ddb")
+		(property "Reference" "#PWR0179"
+			(at 834.39 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 825.5 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 828.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 828.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 828.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f24caf04-afbb-4cd1-96d5-864f83452718")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -64231,7 +64938,7 @@
 			(uuid "b5adce4d-42cc-4394-9ad5-6aaa3fcd9923")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP27")
 					(unit 1)
@@ -64310,7 +65017,7 @@
 			(uuid "43134ab8-2d9f-4e29-bc5f-c54c1f5dda1e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP20")
 					(unit 1)
@@ -64386,7 +65093,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "FID2")
 					(unit 1)
@@ -64652,7 +65359,7 @@
 			(uuid "49674164-39a8-4df5-9fb4-ee5e7642b4be")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U3")
 					(unit 1)
@@ -64661,8 +65368,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 261.62 0)
+		(lib_id "Device:C_Polarized")
+		(at 320.04 262.89 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -64672,8 +65379,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a222e766-bcbe-4419-b130-8b691c82ae72")
-		(property "Reference" "C55"
-			(at 317.7032 260.4516 0)
+		(property "Reference" "C78"
+			(at 317.7032 261.7216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64683,8 +65390,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
-			(at 317.7032 262.763 0)
+		(property "Value" "OS-CON"
+			(at 317.7032 264.033 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64694,8 +65401,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 320.04 261.62 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+			(at 319.0748 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64706,7 +65413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 261.62 0)
+			(at 320.04 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64716,8 +65423,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 320.04 261.62 0)
+		(property "Description" "Polarized capacitor"
+			(at 320.04 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64734,9 +65441,9 @@
 			(uuid "d409e5f1-89d2-4175-a42d-b6fbb4e44a77")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "C55")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -64810,7 +65517,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H10")
 					(unit 1)
@@ -64819,8 +65526,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 812.8 40.64 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 814.07 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -64828,32 +65535,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "acc171cd-6857-434f-9621-2ed2a28fd2e8")
 		(property "Reference" "H8"
-			(at 815.34 39.3699 0)
+			(at 816.61 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 815.34 41.9099 0)
+			(at 821.69 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm"
-			(at 812.8 40.64 0)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad"
+			(at 814.07 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64864,7 +65568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 812.8 40.64 0)
+			(at 814.07 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64874,8 +65578,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 812.8 40.64 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 814.07 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64884,9 +65588,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "e4655262-28b8-4d97-bd59-97a254fbae3b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H8")
 					(unit 1)
@@ -64965,7 +65672,7 @@
 			(uuid "9478626f-468b-4063-9327-92cfa10be6a0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP1")
 					(unit 1)
@@ -65041,7 +65748,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H3")
 					(unit 1)
@@ -65120,9 +65827,88 @@
 			(uuid "f8c64964-deda-4d5e-87c4-c031e77b50dd")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 299.72 222.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b24a68f8-903e-403a-82af-ceeefda3901c")
+		(property "Reference" "R5"
+			(at 297.18 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 302.26 222.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 299.72 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4d3a830-2817-4ada-b015-0a7cf95c9e41")
+		)
+		(pin "2"
+			(uuid "a3408b82-dbe7-4b17-a927-e64c49516b6e")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -65197,9 +65983,85 @@
 			(uuid "8b63ef1d-a64b-4f6b-9517-dd163b3442d8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 791.21 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b29d5d23-2e0a-4794-a3c3-cf45068f76dc")
+		(property "Reference" "H4"
+			(at 793.75 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 798.83 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad"
+			(at 791.21 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 791.21 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 791.21 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48cdde0a-f133-426a-83a3-a63702c59cc7")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -65273,7 +66135,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H13")
 					(unit 1)
@@ -65354,7 +66216,7 @@
 			(uuid "247155d5-11be-4bd3-a794-c004aca92328")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "C2")
 					(unit 1)
@@ -65433,9 +66295,165 @@
 			(uuid "b2a0a60c-d382-470a-a056-743e9d0faa73")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b90f4e61-7afc-4694-8bb1-42d9f4a6b976")
+		(property "Reference" "#PWR0178"
+			(at 289.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.433 172.1358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "468a4b61-4c23-47b0-b753-95a5889b6acb")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 64.77 203.2 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b9fd9827-250c-4983-b1aa-c051b51978ca")
+		(property "Reference" "R31"
+			(at 64.77 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 64.77 201.295 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7936139c-bb70-49f5-b91c-6c284b1d6129")
+		)
+		(pin "2"
+			(uuid "29bb772f-340d-4f45-a9b3-68e3ff43a0fc")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -65509,7 +66527,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H14")
 					(unit 1)
@@ -65592,9 +66610,88 @@
 			(uuid "b9019f02-803d-4f99-857e-5f6327976a4b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 289.56 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "bee6b3ae-a9f6-4ec4-93e5-5d0cc8d468c9")
+		(property "Reference" "R7"
+			(at 287.02 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 292.1 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 289.56 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1432a05-dcdb-4af3-b552-eba1fbbfbc9f")
+		)
+		(pin "2"
+			(uuid "385d19b8-4482-49c9-97ba-ea2deb10b1b8")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -65671,7 +66768,7 @@
 			(uuid "66571a30-cc07-4f24-a867-c0c9ccacd38c")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP28")
 					(unit 1)
@@ -65748,88 +66845,9 @@
 			(uuid "bd3e87c9-92e7-4f7a-a71a-3a5e62116824")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 203.2 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c51db18b-70a2-462a-90a1-09b14fdefe8f")
-		(property "Reference" "C73"
-			(at 64.77 198.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "?"
-			(at 64.77 200.025 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 64.77 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6cb1d7c2-c3d2-46c3-83d3-3410e541d2f7")
-		)
-		(pin "1"
-			(uuid "ecadec6e-c913-4751-977e-953646b8baf4")
-		)
-		(instances
-			(project "nonSNES"
-				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -65937,7 +66955,7 @@
 			(uuid "d737e493-d792-4abc-a93d-a5e6e402efdc")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "P4")
 					(unit 1)
@@ -66016,7 +67034,7 @@
 			(uuid "6fccb18e-38a7-4b1d-a3de-4c877854ca34")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP6")
 					(unit 1)
@@ -66047,7 +67065,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Reset Monitor"
+		(property "Value" "T5290"
 			(at 52.07 448.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66101,88 +67119,9 @@
 			(uuid "7c08cecf-43fb-4e09-87c1-1ac329f11aa0")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 299.72 222.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d07a884b-56c0-4c2e-b9cf-f8ef827496b7")
-		(property "Reference" "C76"
-			(at 302.895 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "?"
-			(at 296.545 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 299.72 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 299.72 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d2c5b20-a30e-4448-a14a-998556846eb2")
-		)
-		(pin "2"
-			(uuid "905b53dd-b2d4-47da-ab21-46bd93a0014a")
-		)
-		(instances
-			(project "nonSNES"
-				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -66259,7 +67198,7 @@
 			(uuid "3c182774-23ac-421d-8aa5-6e66ba8f75a4")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP16")
 					(unit 1)
@@ -66268,41 +67207,38 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 789.94 40.64 0)
+		(lib_id "Device:R_Small")
+		(at 284.48 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1af6467-69ee-41b5-aef4-8eabed3d501e")
-		(property "Reference" "H4"
-			(at 792.48 39.3699 0)
+		(dnp yes)
+		(uuid "d4eee34b-25c6-4aaf-9575-c964d562d57c")
+		(property "Reference" "R8"
+			(at 281.94 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 792.48 41.9099 0)
+		(property "Value" "?"
+			(at 287.02 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.7mm"
-			(at 789.94 40.64 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 284.48 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66313,7 +67249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 789.94 40.64 0)
+			(at 284.48 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66323,8 +67259,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 789.94 40.64 0)
+		(property "Description" ""
+			(at 284.48 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66333,11 +67269,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "182669f5-0996-4746-8e0b-fd8761f518b8")
+		)
+		(pin "2"
+			(uuid "dd28ed70-1614-4d79-9f0c-69586db2691a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "H4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -66411,7 +67353,7 @@
 			)
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "H11")
 					(unit 1)
@@ -66489,7 +67431,7 @@
 			(uuid "a5e4e424-6733-4032-a244-f582796937fb")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#FLG03")
 					(unit 1)
@@ -66568,7 +67510,7 @@
 			(uuid "50d30d2e-44d4-433d-ac6d-2a46367615c8")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP21")
 					(unit 1)
@@ -66647,9 +67589,85 @@
 			(uuid "aa204c8d-663e-4a92-8125-c44228cd8806")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 814.07 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9d40ed4-ec5a-4b64-9404-b7edd6932618")
+		(property "Reference" "H9"
+			(at 816.61 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 821.69 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad"
+			(at 814.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 814.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 814.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e346b3a3-db26-4855-be9e-8d81206fc0c2")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -66725,7 +67743,7 @@
 			(uuid "b0e922f8-1406-43ca-aa17-9fd207707df4")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR07")
 					(unit 1)
@@ -66744,7 +67762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0149f9e-a7eb-4a8b-8a9d-ecd229c0fe30")
-		(property "Reference" "C75"
+		(property "Reference" "C20"
 			(at 284.2768 574.1416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66806,9 +67824,9 @@
 			(uuid "d6152bb2-872e-4bff-a105-b099ca20a72a")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
-					(reference "C75")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -66885,7 +67903,7 @@
 			(uuid "3a020ae4-931b-4f83-8e58-0c01fe5c16b2")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP13")
 					(unit 1)
@@ -66964,7 +67982,7 @@
 			(uuid "2ff749ee-89ee-4c69-a3c4-8698a1ea776b")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP4")
 					(unit 1)
@@ -67043,7 +68061,7 @@
 			(uuid "47673968-1dd8-4d2a-a752-eec27358390e")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "TP26")
 					(unit 1)
@@ -67120,9 +68138,88 @@
 			(uuid "1d9bd3ea-3e15-41a0-af2c-d96cf9668d32")
 		)
 		(instances
-			(project "nonSNES"
+			(project "SNSP-CPU-1CHIP"
 				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 294.64 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "ffbae61e-cbd4-45c1-bda2-9befd72f9a0b")
+		(property "Reference" "R6"
+			(at 292.1 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 297.18 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 294.64 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "655076bc-ebe3-4a99-ac3d-e45f4a02ec3b")
+		)
+		(pin "2"
+			(uuid "1701ca3e-d07f-49eb-a243-2accf29b5115")
+		)
+		(instances
+			(project "SNSP-CPU-1CHIP"
+				(path "/970a1e40-f696-40a3-bdbd-127ff2081acf"
+					(reference "R6")
 					(unit 1)
 				)
 			)

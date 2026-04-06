@@ -497,7 +497,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nonSNES.kicad_pro",
+    "filename": "SNSP-CPU-1CHIP.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -674,18 +674,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "nonSNES.kicad_sch",
-        "name": "nonSNES",
+        "filename": "SNSP-CPU-1CHIP.kicad_sch",
+        "name": "SNSP-CPU-1CHIP",
         "uuid": "970a1e40-f696-40a3-bdbd-127ff2081acf"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H9,H16,#PWR178-181,R5,R7-8,R31,C78",
     "variants": []
   },
   "sheets": [
     [
       "970a1e40-f696-40a3-bdbd-127ff2081acf",
-      "nonSNES"
+      "SNSP-CPU-1CHIP"
     ]
   ],
   "text_variables": {},
