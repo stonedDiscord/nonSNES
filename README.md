@@ -1,7 +1,7 @@
 # nonSNES
 An Open-Source HardWare (OSHW) recreation of the Super Nintendo Entertainment System (PAL)
 
-The design tries to be a 1:1 recreation of the original SNSP-CPU-01 Rev5 board.
+The design tries to be a 1:1 recreation of the original SNSP-CPU-01 Rev5 and SNSP-CPU-1CHIP boards.
 
 ![SNES mainboard in blue](https://raw.githubusercontent.com/stonedDiscord/nonSNES/main/photo/snsp.jpeg)
 
@@ -10,12 +10,12 @@ The design tries to be a 1:1 recreation of the original SNSP-CPU-01 Rev5 board.
 - [X] Replace the reset button with a regular mechanical keyboard switch
 - [X] Include an AV out connector board using mousebites
 - [X] Replace the U11 regulator (the old mitsumi one had a nonstandard pinout for reset monitors)
-- [ ] Include RGB bypass mod
+- [X] Include controller port board
 - [ ] Remove the CIC/swap it for a CIC replacement
 - [ ] Region switch
 - [ ] Replace the audio RAM
 - [ ] Replace the S-CLK clock generator
-- [X] Include controller port board
+- [ ] ~~Include RGB bypass mod~~
 
 ## Tips if you decide to make this/get it made
 The dimensions are 188x159mm.
@@ -31,6 +31,9 @@ Get a 1CHIP version going, [check out the 1chip branch for the WIP](https://gith
 
 ## Inspired by
 https://github.com/Redherring32/OpenTendo
+
+## Other Projects
+NTSC Versions: [OpenSFC](https://github.com/starlightk7/OpenSFC)
 
 ## Credits
 ArcadeTV for the stripped scans:
