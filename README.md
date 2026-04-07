@@ -5,7 +5,7 @@ The design tries to be a 1:1 recreation of the original SNSP-CPU-01 Rev5 and SNS
 
 ![SNES mainboard in blue](https://raw.githubusercontent.com/stonedDiscord/nonSNES/main/photo/snsp.jpeg)
 
-## Some of the planned Changes and improvements
+## Some of the planned changes and improvements
 - [X] Replace the obsolete trimmer capcaitor with an in-stock one
 - [X] Replace the reset button with a regular mechanical keyboard switch
 - [X] Include an AV out connector board using mousebites
@@ -27,7 +27,7 @@ For the top you will have to salvage the Nintendo components. The video RAM is s
 The audio RAM can probably also be easily replaced, I haven't looked into this yet. Feel free to open an issue about it.
 
 ## Roadmap:
-Get a 1CHIP version going, [check out the 1chip branch for the WIP](https://github.com/stonedDiscord/nonSNES/tree/1chip)
+See the checklist
 
 ## Inspired by
 https://github.com/Redherring32/OpenTendo
